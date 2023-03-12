@@ -1,7 +1,7 @@
 ---
 layout: default
-title: swift
-parent: doityourself
+title: BaseKnowledge
+parent: LearnSwift
 nav_order: 1
 ---
 

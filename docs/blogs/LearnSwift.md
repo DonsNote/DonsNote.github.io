@@ -1,6 +1,6 @@
 ---
 layout: default
-title: doityourself
+title: Learn Swift
 nav_order: 2
 has_children: true
 permalink: /docs/blogs
