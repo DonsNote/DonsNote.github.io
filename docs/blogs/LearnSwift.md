@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/blogs
 ---
 
-# When 
+# Learn Swift
 {: .no_toc}
 
-이렇게 하면 됩니다.
+스위프트를 배워 봅시다.
