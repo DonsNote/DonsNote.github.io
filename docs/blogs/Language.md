@@ -19,14 +19,14 @@ nav_order: 2
 변수 선언할 때 : var + 변수명: 타입
 상수 선언할 때 : let + 상수명: 타입
 
-    ```Swift
+    ```swift
     var i: Int
     let j: Character
     ```
 
 # 초기화
 
-    ```Swift
+    ```swift
     i = 1999
     j = "Swift"
     ```
@@ -35,7 +35,7 @@ nav_order: 2
 
 # 선언과 초기화
 
-    ```Swift
+    ```swift
     var i = 1999
     let j = "Swift"
     ```
