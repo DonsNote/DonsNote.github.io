@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BaseKnowledge
-parent: Learn Swift
+parent: Learn
 nav_order: 1
 ---
 

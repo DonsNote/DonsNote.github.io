@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Language
-parent: Learn Swift
+parent: Learn
 nav_order: 2
 ---
 

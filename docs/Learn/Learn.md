@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Swift
+title: Learn
 nav_order: 2
 has_children: true
-permalink: /docs/Swift
+permalink: /docs/Learn
 ---
 
 # Learn Swift
