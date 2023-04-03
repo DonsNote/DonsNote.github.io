@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Learn Swift
-nav_order: 2
-has_children: true
-permalink: /docs/blogs
+title: Swift
+parent: Learn
+nav_order: 4
 ---
 
-# Learn Swift
-{: .no_toc}
+# Swift
 
-스위프트를 배워 봅시다.
+## 
+    
