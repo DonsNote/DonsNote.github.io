@@ -9,7 +9,7 @@ nav_order: 3
 
 ## 기본 자료형
 
-### int
+### Int
     int(integer) 정수
 
 ### 
