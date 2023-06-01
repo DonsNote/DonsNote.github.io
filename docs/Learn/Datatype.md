@@ -27,13 +27,14 @@ nav_order: 3
 
 ### Bool
 * Bool은 ture/false 두 가지의 종류의 값만 가질 수 있습니다.
-    >논리값을 저장하기 위해 사용됩니다. 참/거짓, 성공/실패, 스위치가 켜저있는 상태 On/Off등
-    ```swift
-    var close = ture // Bool 타입 저장 변수
+    >논리값을 저장하기 위해 사용됩니다. 참/거짓, 성공/실패, 스위치가 켜저있는 상태 On/Off 등
 
-    let success = ture
-    let fail = false // Bool 타입 저장 상수
-    ```
+```swift
+var close = ture // Bool 타입 저장 변수
+
+let success = ture
+let fail = false // Bool 타입 저장 상수
+```
 
 ### String
 * 
