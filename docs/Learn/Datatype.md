@@ -29,13 +29,23 @@ nav_order: 3
 * Bool은 ture/false 두 가지의 종류의 값만 가질 수 있습니다.
     >논리값을 저장하기 위해 사용됩니다. 참/거짓, 성공/실패, 스위치가 켜저있는 상태 On/Off 등
 
-```swift
-var close = ture // Bool 타입 저장 변수
+    ```swift
+    var close = ture // Bool 타입 저장 변수
 
-let success = ture
-let fail = false // Bool 타입 저장 상수
-```
+    let success = ture
+    let fail = false // Bool 타입 저장 상수
+    ```
 
 ### String
+* String은 문자열을 저장할 때 사용됩니다.
+* object-c 에서의 NSString 이라는 객체와 같다고 볼 수 있습니다.
+>NSString은 import Foundation을 통한 프레임워크 반입 이후 사용 가능합니다.
+
+    ```swift
+    var projectname = "iOS study"
+    let language = "swift"
+    ```
+
+### Character
 * 
     
