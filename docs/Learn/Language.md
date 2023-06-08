@@ -22,7 +22,7 @@ var i: Int
 let j: Character
 ```
 
-# Swift1
+# Swift
 
 ## 초기화
 ```swift
