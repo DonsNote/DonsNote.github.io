@@ -12,7 +12,7 @@ nav_order: 4
 
 ### 반복문
 
-#### fot ~ in
+#### for ~ in
 ```swift
 for <loop> in <target>
 {
