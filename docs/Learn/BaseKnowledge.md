@@ -1,12 +1,12 @@
 ---
 layout: default
-title: BaseKnowledge
+title: Swift Grammer
 parent: Learn
 nav_order: 1
 ---
 
 
-# Swift 기초지식
+# Swift 기본문법
 
 1. 헤더 파일을 작성할 필요가 없다.
     * 클래스나 구조체를 선언할 때 정의와 구현을 분리하지 않고 통합해서 작성한다.
