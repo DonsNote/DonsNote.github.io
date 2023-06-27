@@ -10,6 +10,8 @@ nav_order: 4
 ## 기본구조
 
 ```swift
+import SwiftUI
+
 struct viewname: View
 {
     var body: some View
