@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Swift Grammer
-parent: Learn
+parent: Learn Swift
 nav_order: 1
 ---
 
