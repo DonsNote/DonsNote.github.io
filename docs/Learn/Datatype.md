@@ -2,7 +2,7 @@
 layout: default
 title: Data Type
 parent: Learn Swift
-nav_order: 3
+nav_order: 2
 ---
 
 # 자료형
