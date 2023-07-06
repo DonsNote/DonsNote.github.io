@@ -15,6 +15,8 @@ nav_order: 2
         var i: Int
         var j: Int8
         var k: Int16
+        public static var max: Int { get }
+        var l: UInt // unsigned integer의 뜻으로 0부터 양수만을 포함한 범위
         ```
     * 8bit 기준 2의 8승 = 256개의 값을 저장 할 수 있습니다.
 
@@ -48,8 +50,17 @@ nav_order: 2
         ```
 
 ## Character
-* Character는 한개의 문를 저장할 때 사용되는 단일 자료형 입니다.
+* Character는 한개의 문자를 저장할 때 사용되는 단일 자료형 입니다.
     ```swift
     var char : Character = "s"
     ```
-    
+
+## 타입이 다른 변수끼리의 결합
+* 기본 자료형 객체들은 다른 타입의 값을 자신의 타입에 맞게 변환가능하다.
+    ```swift
+    var smart = "돈의 키는"
+    var tall = 179
+
+    var donsTall = smart + String(tall)
+    ```
+* String(), Int() 등으로 변환이 가능하다.

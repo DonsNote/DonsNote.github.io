@@ -17,7 +17,7 @@ title: Dons Note
 description: Dons Learning Page
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://DonsNote.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+repository: DonsNote/DonsNote.github.io # for github-metadata
 
 permalink: pretty
 
@@ -97,7 +97,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Dons Note on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+    - "//github.com/DonsNote/DonsNote.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
