@@ -2,48 +2,47 @@
 layout: default
 title: Swift
 parent: Learn Swift
-nav_order: 3
+nav_order: 1
 ---
 
 # Swift
 
-## 구문(Statement)
-* 구문은 크게 단순구문과 흐름 제어 구문으로 구분된다.
+## Swift의 특징
+1. 클래스나 구조체를 선언할 때 정의와 구현을 분리하지 않고 통합해서 작성한다.
+2. 대소문자 구분
+    * 변수나 상수 이름에서 대소문자를 구분하여 사용한다.
+    * 함수와 메소드, 인스턴스명의 첫 글자는 소문자
+    * 클래스와 구조체, 프로토콜 등 객체의 첫 글자는 대문자를 사용하는게 일반적입니다.
+3. 세미콜론 생략 가능
+    * 구문 끝에 세미콜론 마감을 하지 않아도 된다.
+    * 한줄에 두개이상의 구문을 작성할 때는 구문사이 세미콜론 필수
+4. 엔트리 포인트 main()함수가 없다.
+    * 메인 함수가 없는 대신, @UIApplicationMain을 사용하여, 시작 객체를 지정한다.
+        ```swift
+        import UIkit //UIkit 기준
 
-### 반복문
+        @UIApplicationMain
+        class Appdelegate : UIResponder, UIApplicationDelegate
+        ```
+        ```swift
+        import SwiftUI
 
-#### for ~ in
-```swift
-for <loop> in <target>
-{
-    <function>
-}
-```
+        @main //SwiftUI 기준
 
-1. target : 순회대상 = 배열(Array), 딕셔너리(Dictionary), 집합(set), 범위 데이터, 문자열(string)
-2. loop : 루프상수 = 구문반복시 순회대상이 포함하고있는 개별 값을 받아 임의 저장, 실행하는 값
-    * let선언 필요없음
-3. function : fot~in구문 안에서 실행하고자 하는 기능
- ```swift
-for i in 1..<10
-{
-    for j in 1..<10
-    {
-        print("\(i) X \(j) = \(i * j)")
-    }
-}
-```
+        struct App : App {
+            var body: some Scene {
+                WindowGroup {
+                    mainView()
+                }
+            }
+        }
+        ```
 
-#### while
-```swift
-while <조건식>
-{
-    <실행할구문>
-}
-```
-1. while문은 조건을 만족하는 동안은 계속 실행 되는 반복문 입니다.
-
-
-
-
-
+5. 문자(character)와 문자열(string) 모두 "" 사용
+    * 별도로 처리하지 않으면 문자와 문자열의 구분 불가
+        ```swift
+        var i = "a"
+        var j = "abc"
+        var k: Character = "c" //문자열이 아닌 문자를 별도로 처리
+        ```
+6. 객체를 호출할 때 별도의 import구문이 없어도 된다.
