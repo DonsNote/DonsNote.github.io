@@ -10,3 +10,5 @@ nav_order: 5
 ## 기본구조
 ```swift
 func <함수명> -> <리턴값>
+
+this is function
