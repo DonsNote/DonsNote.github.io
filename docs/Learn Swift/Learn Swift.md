@@ -3,7 +3,7 @@ layout: default
 title: Learn Swift
 nav_order: 2
 has_children: true
-permalink: /docs/Learn
+permalink: /docs/Learn Swift
 ---
 
 # Learn Swift
