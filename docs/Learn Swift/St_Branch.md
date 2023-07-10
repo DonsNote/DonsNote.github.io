@@ -1,18 +1,15 @@
 ---
 layout: default
-title: Swift Statement
-parent: Learn Swift
-nav_order: 11
+title: Branch
+parent: Statement
+grand_parent: Learn Swift
+permalink: /docs/Learn Swift/Statement/
+nav_oder: 2
 ---
 
+# 조건문 (Branch Statements)
 
-
-# 스위프트 구문(Swift Statement)
-## 구문은 크게 단순구문과 흐름 제어 구문으로 구분된다.
-
-## 조건문 (Branch Statements)
-
-### if
+## if
 ```swift
 if <조건식> {
     <실행할 구문>
@@ -31,7 +28,7 @@ if <조건식> {
     } // 조건문이 참 임으로 실행구문인 프린트가 실행됩니다.
     ```
 
-### if ~ else
+## if ~ else
 ```swift
 if <조건식> {
     <조건이 참일때 실행할 구문>
@@ -54,7 +51,7 @@ if <조건식> {
     }
     ```
 
-### if 구문의 중첩
+## if 구문의 중첩
 
 1. if 구문은 일반적으로 3단계 이상의 중첩 구문은 사용하지 않는 것이 좋습니다.
     ```swift
@@ -77,7 +74,7 @@ if <조건식> {
     }
     ```
 
-### if ~ else if
+## if ~ else if
 ```swift
 if <조건1> {
     <조건1이 참일 때 실행할 구문>
@@ -101,7 +98,7 @@ if <조건1> {
     }
     ```
 
-### guard
+## guard
 ```swift
 guard <조건식 또는 표현식> else {
     <조건식 또는 표현식의 결과가 false일 때 실행될 코드>
@@ -124,7 +121,7 @@ guard <조건식 또는 표현식> else {
     ```
 5. guard 구문을 다중으로 사용하여 충족되어야 하는 조건을 체크 할 수도 있습니다.
 
-### #available
+## #available
 ```swift
 if #available(<플랫폼이름 버전>, <...>, <*>) {
     <해당 버전에서 사용할 수 있는 API 구문>
@@ -162,4 +159,5 @@ if #available(<플랫폼이름 버전>, <...>, <*>) {
     }
     ```
 
-### swich
+## swich
+
