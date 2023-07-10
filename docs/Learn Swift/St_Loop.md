@@ -3,7 +3,7 @@ layout: default
 title: Loop
 parent: Statement
 grand_parent: Learn Swift
-permalink: /docs/Learn Swift/Statement/
+permalink: /docs/Learn Swift/Statement/St_Loop/
 nav_oder: 1
 ---
 
