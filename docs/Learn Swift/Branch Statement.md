@@ -2,60 +2,13 @@
 layout: default
 title: Swift Statement
 parent: Learn Swift
-nav_order: 4
+nav_order: 11
 ---
 
 
 
 # 스위프트 구문(Swift Statement)
 ## 구문은 크게 단순구문과 흐름 제어 구문으로 구분된다.
-
-## 반복문 (Loop Statements)
-
-### for ~ in
-```swift
-for <loop> in <target> {
-   <function>
-}
-```
-
-1. target : 순회대상 = 배열(Array), 딕셔너리(Dictionary), 집합(set), 범위 데이터, 문자열(string)
-2. loop : 루프상수 = 구문반복시 순회대상이 포함하고있는 개별 값을 받아 임의 저장, 실행하는 값
-3. function : fot ~ in구문 안에서 실행하고자 하는 기능
-     ```swift
-    for i in 1..<10 {
-        for j in 1..<10 {
-            print("\(i) X \(j) = \(i * j)")
-        }
-    } //구구단 출력
-    ```
-
-### while
-```swift
-while <조건식> {
-    <실행할구문>
-}
-```
-1. while문은 조건을 만족하는 동안은 계속 실행 되는 반복문 입니다.
-    ```swift
-    var i = 2
-    while i < 1000 {
-        i = i * 2
-    }
-    print("i = \(i)")
-    ```
-
-### repeat ~ while
-```swift
-repeat {
-  <실행할 구문>
-}
-while <조건식>
-```
-1. repeat ~ while 구문은 실행 블록의 수행을 최소 한번은 보장합니다.
-<br>
-<br>
-<br>
 
 ## 조건문 (Branch Statements)
 
@@ -162,9 +115,9 @@ guard <조건식 또는 표현식> else {
     func divide(base: Int) {
         guard base != 0 /* Divide by Zero 체크 */ esle {
             print("연산할수 없습니다")
-            return // 정지구문
+            return /* 정지구문 */
         }
-
+        
         let result = 100 / base
         print(result)
     }
@@ -172,3 +125,41 @@ guard <조건식 또는 표현식> else {
 5. guard 구문을 다중으로 사용하여 충족되어야 하는 조건을 체크 할 수도 있습니다.
 
 ### #available
+```swift
+if #available(<플랫폼이름 버전>, <...>, <*>) {
+    <해당 버전에서 사용할 수 있는 API 구문>
+} else {
+    <API를 사용할 수 없는 환경에 대한 처리>
+}
+```
+
+1. 개발을 하다보면 기기의 OS버전 별로 구문을 나누어 작성해야 할 때가 있습니다. "API가 버전을 탄다"
+2. 특정 API를 사용할 때 애플 개발자용 문서를 확인하여 사용 가능한 OS버전과 기기를 체크 해야합니다.
+3. 스위프트 2 이전버전에서 #available 구현 방법
+    ```swift
+    if (UIDevice.current().systemVersion.hasPrefix("9")) {
+        // IOS 9 버전에서 지원하는 구문.
+
+    } else if (UIDevice.current().systemVersion.hasPrefix("8")) {
+        // IOS 8 버전에서 지원하는 구문.
+
+    } else if (UIDevice.current().systemVersion.hasPrefix("7")) {
+        // IOS 7 버전에서 지원하는 구문.
+
+    } else {
+        // 기타 나머지 버전에서 지원하는 구문
+
+    }
+    ```
+4. 현재
+    ```swift
+    if #available(iOS 9, OSX 10.10, watchOS 1, *) {
+        // iOS 9용 API 구문 또는 OS X 10.10용 API 구문, watchOS 1용 API 구문
+
+    } else {
+        // API를 사용하지 못했을 때에 대한 실패 처리
+
+    }
+    ```
+
+### swich

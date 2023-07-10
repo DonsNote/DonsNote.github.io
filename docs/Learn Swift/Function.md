@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Swift Function
+title: Function
 parent: Learn Swift
-nav_order: 5
+nav_order: 20
 ---
 
 # Swift Function 함수
