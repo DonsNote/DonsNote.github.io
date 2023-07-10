@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Swift Grammer
+title: Swift Function
 parent: Learn Swift
-nav_order: 4
+nav_order: 5
 ---
 
 # Swift Function 함수
