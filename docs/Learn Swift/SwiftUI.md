@@ -2,7 +2,7 @@
 layout: default
 title: SwiftUI Kit
 parent: Learn Swift
-nav_order: 6
+nav_order: 5
 ---
 
 # SwiftUI

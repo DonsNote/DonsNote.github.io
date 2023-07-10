@@ -2,7 +2,7 @@
 layout: default
 title: Swift Grammer
 parent: Learn Swift
-nav_order: 5
+nav_order: 4
 ---
 
 # Swift Function 함수
