@@ -4,7 +4,6 @@ title: Branch
 parent: Statement
 grand_parent: Learn Swift
 permalink: /docs/Learn Swift/Statement/St_Branch/
-nav_oder: 2
 ---
 
 # 조건문 (Branch Statements)
@@ -159,5 +158,49 @@ if #available(<플랫폼이름 버전>, <...>, <*>) {
     }
     ```
 
-## swich
+## switch
+```swift
+switch <비교대상> {
+    case <비교 패턴1> :
+        <비교 패턴1이 일치했을때 실행할 구문>
+    case <비교 패턴2>, <비교 패턴3> :
+        <비교 패턴2 또는 패턴3이 일치했을 때 실행할 구문>
+    default :
+        <비교 패턴에 일치하지 않았을 때 실행할 구문>
+}
+```
 
+1. switch 구문은 여러 개의 조건 비교에 효율적인 구문입니다.
+2. C 나 Java의 switch 구문과 다른점은 일치 패턴이 있을시 분기문을 종료합니다.
+    * 다른 언어에서는 case 실행 구문내에 break를 추가해야 종료합니다.
+    * swift에선 Fallthrough을 따로 지정해 주어야 합니다.
+        ```swift
+        let sampleChar : Character = "a"
+
+        switch sampleChar {
+            case "a" :
+                fallthrough // 타 언어에선 생략할 수 있습니다.
+
+            case "A" :
+                print("글자는 A 입니다.")
+            
+            default :
+                print("일치하는 글자가 없습니다.")
+        }
+        ```
+3. switch 구문은 반드시 하나의 비교 패턴과 일치해야 합니다.
+    * default 구문이 반드시 들어가야 합니다.
+    * 단, 모든 패턴을 매칭시킬 수 있는 구문이 존재하면 생략 가능합니다. (추후 업데이트)
+4. 하나 이상의 비교 패턴을 작성 할 수 있습니다.
+    ```swift
+    var value = 3
+
+    switch value {
+        case 0, 1 :
+            print("0 또는 1입니다.")
+        case 2, 3 :
+            print("2 또는 3입니다.")
+        default :
+            print("default 입니다")
+    }
+    ```
