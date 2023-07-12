@@ -204,3 +204,23 @@ switch <비교대상> {
             print("default 입니다")
     }
     ```
+5. 특정 타입으로 캐스팅 된 객체도 사용 가능합니다.
+    ```swift
+    var value = (2, 3)
+
+    switch value {
+        case let (x, 3):
+            print("튜플의 두 번째 값이 3일 때 첫번째 값은 \(x)입니다.")
+        case let (3, y):
+            print("튜플의 첫 번째 값이 3일 때 두번째 값은 \(y)입니다.")
+        case let (x, y):
+            print("튜플의 값은 각각 \(x), \(y)입니다.")
+    }
+    ```
+6. case 구문에 범위 연산자를 사용 할 수도 있습니다.
+    ```swift
+    switch time {
+        case 0..<50:
+            print("...")
+    }
+    ```
