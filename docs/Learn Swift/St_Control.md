@@ -12,6 +12,7 @@ permalink: /docs/Learn Swift/Statement/St_Control/
 * 주로 반복문이나 조건문, 함수 등에서 사용됩니다.
 
 ## break
+* 브레이크으
 ## continue
 ## fallthrough
 ## return
