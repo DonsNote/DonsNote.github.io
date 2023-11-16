@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SwiftUI Kit
+title: SwiftUI
 parent: Learn Swift
 nav_order: 30
 ---
