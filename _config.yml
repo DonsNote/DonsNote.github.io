@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dons Note
+title: DonsNote
 description: Dons Learning Page
 #baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://DonsNote.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -101,7 +101,7 @@ aux_links:
     - "//github.com/DonsNote/"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
