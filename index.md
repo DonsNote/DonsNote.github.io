@@ -8,6 +8,7 @@ permalink: /
 
 ![](../../assets/images/Donsmemo.png)
 
-# Dons Note
+# DonsNote
 
-## 지금은 Apple Developer Academy @ POSTECH 에서 공부 중 입니다.
+## Apple Developer Academy @ POSTECH - 2023
+## Now in 42 Gyeongsan - 2024 ~
