@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Learn Swift
+title: Learn C
 nav_order: 3
 has_children: true
 permalink: /docs/Learn C
