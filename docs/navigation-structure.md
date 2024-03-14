@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Navigation Structure
-nav_order: 6
+nav_order: 
 ---
 
 # Navigation Structure
