@@ -22,6 +22,8 @@ nav_order: 1
 	3. LV 생성 - 필수 및 필요
 	4. 마운트
 	5. SSH, BasicUtil 설치
+	6. Hostname은 42로 끝나야함
+	7. Hostname과 같은 이름의 사용자가 있어야함
 
 ## LVM (Local Volume Management)
 ```
@@ -42,17 +44,115 @@ boot : 커널 부트 이미지 파티션, 부팅시스템 파일용
 ```
 * 디스크 공간을 '동적'으로 관리할 수 있는 Linux운영 체제 기능
 * Devien설치 할때 할당 할 수 있음
-
-```bash
-lsblk
-fdisk -l
-```
+* Volum 확인
+	```bash
+	lsblk
+	fdisk -l
+	```
 
 ## SELinux (Security Enhance Linux)
 * 엑서스 권한 제어 보안 아키텍쳐
 
+## SSH
+* SSH는 4242 포트에서만 실행 됩니다.
+* 보안을 위해서 SSH를 Root로 연결하는 것은 불가능 하게 합니다.
+* /etc/ssh/sshd_config 수정
+	* port 4242 - ssh 접속 포트
+	* PermitRootLogin no - 루트 접근 권한
+	```bash
+	systemctl restart ssh
+	systemctl status ssh
+	```
+
+	### UFW(Uncomplicated Firewall)를 활용하여 방화벽 구성
+	```bash
+	apt-get install ufw
+	ufw status verbose - 상태확인
+	ufw enable - 활성화
+	ufw disable - 비활성화
+	ufw show raw - 기본 룰 확인
+	ufw default deny - 기본 정책 차단
+	ufw default allow - 기본 정책 허용
+	ufw allow 22 - 22번 포트에 대하여 tcp/udp 허용
+	ufw allow 22/tcp - 22번 포트에 대하여 tcp만 허용
+	ufw delete allow 22/tcp	- 룰 삭제
+	```
+	### VirtualBox Setting for network
+	* Check ip & port (vm)
+		```bash
+		ip a
+		hostname -I
+		ss
+		```
+	* 도구 네트워크에서 호스트 전용 네트워크 생성
+		* 어댑터 수동 설정
+		* vm power off 설정 - 네트워크
+			* 어댑터 1 : NAT - 고급 - 포트 포워딩 - 호스트 = 로컬, 게스트 = 서버, 포트 = 4242
+			* 어댑터 2 : 호스트 전용 - 이름 = 도구 어댑터
+	
+	### 로컬에서 서버(VM) ssh 연결
+	```bash
+	ssh <id>@<ipaddr> -p 4242
+	```
+
+
 ## Sudo Setting
-* 
+* Hostname 과 같은 이름의 사용자를 sudo그룹에 넣어야함
+	```bash
+	adduser <id>
+	usermod -aG sudo <id>
+	```
+* 사용자 전환
+	```bash
+	login <id> - 사용자로 전환
+	su - - root권한으로 전환
+	```
+
+	### Sudo 설정
+	* 권한 오류시 메세지 표시
+	* 비밀번호 오류시 메세지 표시
+	* sudo 명령 작업은 입/출력을 /var/log/sudo/에 저장
+	* TTY모드 활성화 - tty가 할당되지않으면 sudo 명령어 사용 불가
+	* sudo에서 사용할 수 있는 경로 제한
+		* /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+* Sudo install
+	```bash
+	apt-get install sudo
+	```
+* Sudoers setting
+	* visudo 명령어로 sudoers.tmp 편집 - MUST be 라고 되어있음
+		```bash
+		Defaults	authfail_message=""
+		Defaults	badpass_message=""
+		Defaults	iolog_dir=""
+		Defaults	log_input
+		Defaults	log_output
+		Defaults	requiretty
+		Defaults	passwd_tries=3
+		```
+	* man sudoers 전체 옵션 확인가능
+
+## Password Setting
+* 30일마다 만료되어야 함
+* 비밀번호 수정 허용 일자는 2일
+* 비밀번호 만료 7일전 경고 메세지를 발송해야함
+	```bash
+	vi /etc/login.defs
+	```
+	* PASS_* max/min/warn 수정
+
+* 비밀번호는 10자 이상으로 대문자, 소문자, 숫자를 포함해야하며, 동일문자 3개 이상 연속되면 안됨
+* 사용자 이름이 포함되어서는 안됨
+	```bash
+	apt-get install libpam-pwquality
+	vi /etc/pam.d/common-password
+	retry=3 minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username enforce_for_root difok=7
+	
+* 비밀번호 정책 구성 후 루트 계정을 포함하여 모든 계정의 비밀번호를 변경해야함
+
+## TTY (Teletypewriter)
+* 리눅스의 콘솔 및 터미널을 의미
 
 ## Difference between Aptitude and Apt
 * Apt (Advanced Packaging Tool) - /etc/apt/source.list에 저장된 목록사용
