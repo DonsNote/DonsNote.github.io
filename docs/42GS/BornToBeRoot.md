@@ -176,19 +176,33 @@ ssh <id>@<ipaddr> -p 4242
 
 ## Monitoring.sh
 * 모니터링 쉘 스트립트 작성
-	* 10분마다 모든 터미널에 정보 표시
+	* 10분마다 모든 터미널에 정보 표시 - crontab 명령어 사용
 		1. 운영 체제의 아키텍처 및 커널 버전
+			* uname -a
 		2. 물리 프로세서의 갯수
+			* nproc --all
 		3. 가상 프로세서의 갯수
+			* /proc/cpuinfo 파일안에 정보가 들어있음
 		4. 사용가능한 RAM 과 사용율(%)
+			* free
 		5. 사용가능한 메모리(저장소)와 활용율(%)
+			* df
 		6. 프로세서의 현재 활용율(%)
+			* mpstat
 		7. 마지막 재부팅 날짜 및 시간
+			* who -b
 		8. LVM 활성 상태 여부
+			* lsblk
 		9. 활성화된 연결 수
+			* ss
 		10. 사용자 수
+			who
 		11. IPv4 주소 및 MAC 주소
+			* hostname -I
+			* ip link show
 		12. sudo로 실행되는 명령의 갯수
+			* journalctl _COMM=sudo
+	
 
 
 
