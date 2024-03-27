@@ -202,9 +202,20 @@ ssh <id>@<ipaddr> -p 4242
 			* ip link show
 		12. sudo로 실행되는 명령의 갯수
 			* journalctl _COMM=sudo
-	
 
+# Bonus Part
+* 파티션 구조 만들기 - 과제 이미지
+* lighttpd, MariaDB, PHP 를 사용하여, 기능적인 WordPress 사이트 설정
+* NGINX / Apache2를 제외한 필요한 서비스 설정 가능
+* 서비스를 위해서 포트를 더 많이 열어도 됩니다 (이에 따라 ufw 수정)
 
+## lighttpd
+
+## PHP
+
+## MariaDB
+
+## WordPress
 
 ## TTY (Teletypewriter)
 * 리눅스의 콘솔 및 터미널을 의미
