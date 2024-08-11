@@ -2,8 +2,11 @@
 layout: default
 title: Get Next Line
 parent: 42GS
-nav_order: 2
+nav_order: 3
 ---
+
+
+# Mandatory
 
 # Get Next Line
 * Buffer?

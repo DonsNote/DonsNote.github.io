@@ -3,7 +3,7 @@ layout: default
 title: Swift Base
 parent: Swift
 grand_parent: Language
-permalink: /docs/Language/Swift/
+permalink: /docs/Language/Swift/Swift_base/
 nav_order: 2
 ---
 

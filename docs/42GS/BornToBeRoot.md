@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Born To Be Root
+title: Born to be root
 parent: 42GS
-nav_order: 1
+nav_order: 4
 ---
 
 
-# Mandatory Part(필수 부분)
+# Mandatory
 
 * 이 프로젝트는 지정된 큐칙에 따라 서버를 구성 및 설정하는 과제입니다.
 * GUI를 사용하지 않습니다.(그래픽 서버 설치 금지)
