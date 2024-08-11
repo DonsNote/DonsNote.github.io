@@ -2,7 +2,7 @@
 layout: default
 title: Data Type
 parent: Swift
-nav_order: 3
+nav_order: 4
 ---
 
 # 자료형 (Data Type)

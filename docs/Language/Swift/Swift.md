@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/Language/Swift
 ---
 
-# Learn Swift
+# Swift
 {: .no_toc}
 
 스위프트를 공부해 봅니다.

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Swift
+title: Swift Base
 parent: Swift
-nav_order: 1
+nav_order: 2
 ---
 
 # Swift
