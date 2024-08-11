@@ -2,8 +2,8 @@
 layout: default
 title: Loop
 parent: Statement
-grand_parent: Learn Swift
-permalink: /docs/Learn Swift/Statement/St_Loop/
+grand_parent: Swift
+permalink: /docs/Language/Swift/Statement/St_Loop/
 ---
 
 # 반복문 (Loop Statements)

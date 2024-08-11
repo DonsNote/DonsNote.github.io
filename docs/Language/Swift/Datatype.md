@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Type
-parent: Learn Swift
+parent: Swift
 nav_order: 3
 ---
 

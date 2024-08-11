@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Function
-parent: Learn Swift
+parent: Swift
 nav_order: 20
 ---
 

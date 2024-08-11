@@ -2,8 +2,8 @@
 layout: default
 title: Branch
 parent: Statement
-grand_parent: Learn Swift
-permalink: /docs/Learn Swift/Statement/St_Branch/
+grand_parent: Swift
+permalink: /docs/Language/Swift/Statement/St_Branch/
 ---
 
 # 조건문 (Branch Statements)

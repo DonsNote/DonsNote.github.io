@@ -2,8 +2,8 @@
 layout: default
 title: Control
 parent: Statement
-grand_parent: Learn Swift
-permalink: /docs/Learn Swift/Statement/St_Control/
+grand_parent: Swift
+permalink: /docs/Language/Swift/Statement/St_Control/
 ---
 
 # 제어 전달문 (Control Statement)

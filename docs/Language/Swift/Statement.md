@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Statement
-parent: Learn Swift
+parent: Swift
 has_children: true
 nav_order: 10
 ---

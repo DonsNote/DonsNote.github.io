@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Learn C
-nav_order: 3
+title: C
+nav_order: 1
 has_children: true
-permalink: /docs/Learn C
+permalink: /docs/Language/C
 ---
 
 # Learn C

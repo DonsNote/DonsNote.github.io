@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Swift
-parent: Learn Swift
+parent: Swift
 nav_order: 1
 ---
 
@@ -11,6 +11,8 @@ nav_order: 1
 
 ## Swift의 특징
 1. 클래스나 구조체를 선언할 때 정의와 구현을 분리하지 않고 통합해서 작성한다.
+<br>
+
 2. 대소문자 구분
     * 변수나 상수 이름에서 대소문자를 구분하여 사용한다.
     * 함수와 메소드, 인스턴스명의 첫 글자는 소문자
