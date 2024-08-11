@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Function
+title: Swift Function
 parent: Swift
+grand_parent: Language
+permalink: /docs/Language/Swift/
 nav_order: 20
 ---
 

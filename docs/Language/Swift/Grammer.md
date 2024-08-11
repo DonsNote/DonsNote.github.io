@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Grammer
+title: Swift Grammer
 parent: Swift
-nav_order: 3
+grand_parent: Language
+permalink: /docs/Language/Swift/
+nav_order: 5
 ---
 
 

@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Data Type
+title: Swift Data Type
 parent: Swift
+grand_parent: Language
+permalink: /docs/Language/Swift/
 nav_order: 4
 ---
 

@@ -4,6 +4,7 @@ title: Loop
 parent: Statement
 grand_parent: Swift
 permalink: /docs/Language/Swift/Statement/St_Loop/
+nav_order: 2
 ---
 
 # 반복문 (Loop Statements)

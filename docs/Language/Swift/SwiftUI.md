@@ -1,11 +1,14 @@
 ---
 layout: default
-title: SwiftUI
+title: Swift UI
 parent: Swift
-nav_order: 30
+grand_parent: Language
+permalink: /docs/Language/Swift/
+nav_order: 3
 ---
 
-# SwiftUI
+
+# Swift UI
 
 ## 기본구조
 

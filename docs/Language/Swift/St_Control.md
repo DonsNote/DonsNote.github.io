@@ -4,6 +4,7 @@ title: Control
 parent: Statement
 grand_parent: Swift
 permalink: /docs/Language/Swift/Statement/St_Control/
+nav_order: 3
 ---
 
 # 제어 전달문 (Control Statement)

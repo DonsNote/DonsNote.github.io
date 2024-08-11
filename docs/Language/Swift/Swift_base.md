@@ -2,10 +2,12 @@
 layout: default
 title: Swift Base
 parent: Swift
+grand_parent: Language
+permalink: /docs/Language/Swift/
 nav_order: 2
 ---
 
-# Swift
+# Swift Base
 
 * 대부분의 내용은 "꼼꼼한 재은 씨의 Swift : 문법편"을 공부한 내용입니다.
 

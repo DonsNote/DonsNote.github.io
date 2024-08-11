@@ -4,6 +4,7 @@ title: Branch
 parent: Statement
 grand_parent: Swift
 permalink: /docs/Language/Swift/Statement/St_Branch/
+nav_order: 1
 ---
 
 # 조건문 (Branch Statements)

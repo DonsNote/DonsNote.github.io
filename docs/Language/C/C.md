@@ -1,12 +1,20 @@
 ---
 layout: default
 title: C
-nav_order: 1
+parent: Language
 has_children: true
-permalink: /docs/Language/C
+nav_order: 1
 ---
 
-# Learn C
-{: .no_toc}
+# C
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc }
 
 C 언어를 배워 봅시다.
+
+---
