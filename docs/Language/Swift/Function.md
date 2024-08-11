@@ -3,7 +3,7 @@ layout: default
 title: Swift Function
 parent: Swift
 grand_parent: Language
-permalink: /docs/Language/Swift/
+permalink: /docs/Language/Swift/Function/
 nav_order: 20
 ---
 

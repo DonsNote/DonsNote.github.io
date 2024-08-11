@@ -3,7 +3,7 @@ layout: default
 title: Swift Data Type
 parent: Swift
 grand_parent: Language
-permalink: /docs/Language/Swift/
+permalink: /docs/Language/Swift/Datatype/
 nav_order: 4
 ---
 

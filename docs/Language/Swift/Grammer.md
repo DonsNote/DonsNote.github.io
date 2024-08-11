@@ -3,7 +3,7 @@ layout: default
 title: Swift Grammer
 parent: Swift
 grand_parent: Language
-permalink: /docs/Language/Swift/
+permalink: /docs/Language/Swift/Grammer/
 nav_order: 5
 ---
 
