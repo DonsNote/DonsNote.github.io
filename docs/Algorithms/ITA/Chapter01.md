@@ -3,7 +3,7 @@ layout: default
 title: Chapter 01
 parent: ITA
 grand_parent: Algorithms
-permalink: /docs/Algorithms/ITA/Chapter01
+permalink: /docs/Algorithms/ITA/Chapter01/
 nav_order: 2
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Introduction To Algorithms
-parent: Algoritms
+parent: Algorithms
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Introduction To Algorithms (ITA)
