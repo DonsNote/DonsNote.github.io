@@ -3,7 +3,7 @@ layout: default
 title: Control
 parent: Statement
 grand_parent: Swift
-permalink: /docs/Language/Swift/Statement/St_Control/
+permalink: /docs/Language/Swift/St_Control/
 nav_order: 3
 ---
 

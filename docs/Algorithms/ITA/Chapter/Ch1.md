@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chapter 01
-parent: Algorithms
+parent: Introduction To Algorithms
 grand_parent: Algorithms
 permalink: /docs/Algorithms/ITA/Chapter/Ch1/
 nav_order: 1

@@ -3,7 +3,7 @@ layout: default
 title: Loop
 parent: Statement
 grand_parent: Swift
-permalink: /docs/Language/Swift/Statement/St_Loop/
+permalink: /docs/Language/Swift/St_Loop/
 nav_order: 2
 ---
 

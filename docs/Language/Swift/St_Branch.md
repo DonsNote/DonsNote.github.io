@@ -3,7 +3,7 @@ layout: default
 title: Branch
 parent: Statement
 grand_parent: Swift
-permalink: /docs/Language/Swift/Statement/St_Branch/
+permalink: /docs/Language/Swift/St_Branch/
 nav_order: 1
 ---
 
