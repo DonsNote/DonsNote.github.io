@@ -3,7 +3,7 @@ layout: default
 title: Loop
 parent: Statement
 grand_parent: Swift
-permalink: /docs/Language/Swift/St_Loop/
+permalink: /docs/Language/Swift/Statement/St_Loop/
 nav_order: 2
 ---
 
@@ -24,7 +24,7 @@ for <loop> in <target> {
         for j in 1..<10 {
             print("\(i) X \(j) = \(i * j)")
         }
-    } //구구단 출력
+    }
     ```
 
 ## while
