@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Libft
-parent: 42 GyeongSan
+parent: Assignment
 permalink: /doc/42GS/Assignment/Libft/
 nav_order: 1
 ---
