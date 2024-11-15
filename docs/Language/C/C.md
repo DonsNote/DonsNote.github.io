@@ -7,10 +7,9 @@ nav_order: 1
 ---
 
 # C
-    * C 언어를 배워 봅시다.
-{: .no_toc }
+- C 언어를 배워 봅시다.
 
-## Table of contents
-{: .no_toc .text-delta }
+---
+{: .no_toc }
 
 ---
