@@ -3,7 +3,7 @@ layout: default
 title: Mini Shell
 parent: 42 GyeongSan
 permalink: /doc/42GS/Assignment/Minishell/
-nav_order: 3
+nav_order: 9
 ---
 
 # Mandatory

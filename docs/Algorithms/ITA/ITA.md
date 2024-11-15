@@ -3,7 +3,8 @@ layout: default
 title: Introduction To Algorithms
 parent: Algorithms
 has_children: true
-nav_order: 2
+permalink: /docs/Algorithms/ITA/ITA/
+nav_order: 1
 ---
 
 # Introduction To Algorithms (ITA)

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Chapter 01
-parent: ITA
+parent: Algorithms
 grand_parent: Algorithms
-permalink: /docs/Algorithms/ITA/Chapter01/
-nav_order: 2
+permalink: /docs/Algorithms/ITA/Chapter/Ch1/
+nav_order: 1
 ---
 
 # 알고리즘의 역활 <br>
