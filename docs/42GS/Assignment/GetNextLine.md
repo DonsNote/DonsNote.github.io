@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Get Next Line
-parent: 42GS
+parent: 42 GyeongSan
+permalink: /doc/42GS/Assignment/GetNextLine/
 nav_order: 3
 ---
 

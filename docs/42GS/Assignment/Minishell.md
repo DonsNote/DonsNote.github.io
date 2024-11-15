@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Libft
-parent: 42GS
+title: Mini Shell
+parent: 42 GyeongSan
 permalink: /doc/42GS/Assignment/Minishell/
-nav_order: 9
+nav_order: 3
 ---
 
 # Mandatory

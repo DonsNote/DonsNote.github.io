@@ -1,7 +1,8 @@
 ---
 layout: default
-title: ft_Printf
-parent: 42GS
+title: Ft_Printf
+parent: 42 GyeongSan
+permalink: /doc/42GS/Assignment/Printf/
 nav_order: 2
 ---
 

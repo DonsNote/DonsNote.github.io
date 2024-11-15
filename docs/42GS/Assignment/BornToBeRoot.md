@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Born to be root
-parent: 42GS
+title: Born To Be Root
+parent: 42 GyeongSan
+permalink: /doc/42GS/Assignment/BornToBeRoot/
 nav_order: 4
 ---
 

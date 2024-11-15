@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Mini talk
-parent: 42GS
+title: Philosophers
+parent: 42 GyeongSan
+permalink: /doc/42GS/Assignment/Philosophers/
 nav_order: 8
 ---
 
