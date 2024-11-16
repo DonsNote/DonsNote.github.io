@@ -13,10 +13,15 @@ nav_order: 9
 4. 전역 변수는 한 개를 초과하여 사용할 수 없으며, 전역 변수를 왜 사용하였는지 생각해보고<br> 그 이유를 설명할 수 있어야합니다.
 5. 닫히지 않은(홀수) 따옴표나 명시되지 않은 특수문자(\ or ; 등등)을 해석하지 않아야 합니다.
 6. 쌍따옴표 안에 있는 $를 제외한 메타문자를 해석하지 않아야 합니다.
-7. 다음의 리다이렉션을 구현해야 합니다.
-    - < : 입력
+7. 다음을 구현해야 합니다.
     - \> : 출력
-    - << : 
+    - < : 입력
+	- \>> : 출력을 덧붙이기
+    - << : 구분자가 함께 주어지며, 구분자를 포함한 줄을 만나기 전까지 입력을<br>읽어들여야 합니다. 히스토리를 업데이트 할 필요는 없습니다.
+	- | : 각 파이프라인마다 명령어의 츨력은 파이프로 연결되어 다음 명령어에 입력.
+	- \$ : 환경변수는 $뒤의 문자열로 값이 확장.
+	- $? : 가장 최근에 실행한 포그라운드 파이프라인의 종료상태로 확장. 
+	- ctrl-C, D, \ 는 Bash와 동일하게 작동해야합니다.
 
 ## Allow Funtion
 
@@ -92,4 +97,16 @@ nav_order: 9
 	tgoto: 커서 이동 문자열을 생성합니다.
 	tputs: 터미널 제어 문자열을 출력합니다.
 	```
+## Builtins
+1. echo with option -n
+2. cd with only a relative or absolute path
+3. pwd with no options
+4. export with no options
+5. unset with no options
+6. env with no option or arguments
+7. exit with no options
 
+---
+# Solve
+## Parse
+1. 
