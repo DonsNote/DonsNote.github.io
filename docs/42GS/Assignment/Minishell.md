@@ -98,6 +98,7 @@ nav_order: 9
 	tputs: 터미널 제어 문자열을 출력합니다.
 	```
 ## Builtins
+
 1. echo with option -n
 2. cd with only a relative or absolute path
 3. pwd with no options
@@ -106,7 +107,6 @@ nav_order: 9
 6. env with no option or arguments
 7. exit with no options
 
----
 # Solve
 ## Parse
 1. 
