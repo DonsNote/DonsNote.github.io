@@ -10,8 +10,6 @@ nav_order: 1
 # Introduction To Algorithms (ITA)
 * 알고리즘에 대해서 공부해 봅시다.
 
-{: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
 

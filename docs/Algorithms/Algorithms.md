@@ -7,6 +7,7 @@ permalink: /docs/Algorithms
 ---
 
 # Algorithms
-{: .no_toc}
+* 알고리즘은 기본이다! - Don -
 
-알고리즘은 기본이다! - Don -
+## Table of contents
+{: .no_toc .text-delta }
