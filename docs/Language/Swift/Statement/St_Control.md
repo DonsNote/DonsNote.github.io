@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Control
-parent: Statement
-grand_parent: Swift
-grand_grand_parent: Language
+parent: Swift
+grand_parent: Language
 permalink: /docs/Language/Swift/Statement/St_Control/
 nav_order: 3
 ---

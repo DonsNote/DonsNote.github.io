@@ -3,7 +3,7 @@ layout: default
 title: Swift UI
 parent: Swift
 grand_parent: Language
-permalink: /docs/Language/Swift/
+permalink: /docs/Language/Swift/SwiftUI/
 nav_order: 3
 ---
 
