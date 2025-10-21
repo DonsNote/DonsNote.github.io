@@ -1,3 +1,14 @@
+# Mac
+.DS_Store
+
+# Node
+node_modules
+
+# Claude Code
+.mcp.json
+.serena/
+.claude/
+
 *.gem
 .bundle
 .ruby-version
@@ -5,5 +16,3 @@
 .sass-cache
 _site
 Gemfile.lock
-node_modules
-.DS_Store
