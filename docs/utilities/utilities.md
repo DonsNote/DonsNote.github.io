@@ -1,10 +1,10 @@
-<!-- ---
+---
 layout: default
 title: Utilities
-nav_order: 
+nav_order: 5
 has_children: true
-permalink: docs/utilities
---- -->
+permalink: /docs/utilities
+---
 
 # Utilities
 {: .no_toc }

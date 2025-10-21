@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Statement
-parent: Swift
-grand_parent: Language
-has_children: true
-permalink: /docs/Language/Swift/Statement/
-nav_order: 30
+title: Statement (미사용)
+published: false
 ---
 
 # Statement

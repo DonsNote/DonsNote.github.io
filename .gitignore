@@ -15,4 +15,11 @@ node_modules
 .jekyll-cache
 .sass-cache
 _site
+<<<<<<< HEAD
 Gemfile.lock
+=======
+Gemfile.lock
+node_modules
+.DS_Store
+.mcp.json
+>>>>>>> e65bcb377a1a584595dec9fabc7e03440219c8c2

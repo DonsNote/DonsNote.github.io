@@ -3,7 +3,7 @@ layout: default
 title: Net Practice
 parent: 42 GyeongSan
 permalink: /doc/42GS/Assignment/NetPractice/
-nav_order: 10
+nav_order: 11
 ---
 
 # Mandatory

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Apple Developer Academy
-nav_order: 3
+parent: Bootcamp
 has_children: true
-permalink: /docs/Apple
+nav_order: 1
 ---
 
 # Apple Developer Academy
@@ -11,3 +11,4 @@ permalink: /docs/Apple
 
 ## Table of contents
 {: .no_toc .text-delta }
+
