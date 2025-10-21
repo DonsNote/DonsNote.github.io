@@ -12,6 +12,9 @@ node_modules
 # jekyll
 .jekyll-cache
 
+# IDE
+.vscode/
+
 *.gem
 .bundle
 .ruby-version
