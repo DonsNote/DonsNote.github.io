@@ -1,16 +1,20 @@
 ---
 layout: default
-title: Home
 nav_order: 1
+title: Home
 description: "Don`s Learning Note."
 permalink: /
 ---
 
-![](../../assets/images/Donsmemo.png)
+![](../../assets/images/Donsmemo.png){: .center-image}
 
-# DonsNote
+# Don (Kim do hyun)
 
-## Aesopos Inc. CEO 2019 ~
-## Apple Developer Academy @ POSTECH - 2023
-## 42 Gyeongsan - 2024 ~ 2025
-## Freelance 2025 ~
+## Personal History
+```
+Aesopos Inc. CEO 2019 ~
+42 Gyeongsan - 2024 ~ 25
+Apple Developer Academy @ POSTECH - 2023
+University of Toronto OISE : lv 60 - 2019
+Jeju tourism University : tourism management - 2012
+```
