@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Philosophers
-parent: 42 GyeongSan
-permalink: /doc/42GS/Assignment/Philosophers/
+parent: 42
+grand_parent: Bootcamp
+permalink: /docs/Bootcamp/42/Philosophers/
 nav_order: 8
 ---
 

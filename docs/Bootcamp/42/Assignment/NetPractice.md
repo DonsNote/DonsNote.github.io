@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Net Practice
-parent: 42 GyeongSan
-permalink: /doc/42GS/Assignment/NetPractice/
+parent: 42
+grand_parent: Bootcamp
+permalink: /docs/Bootcamp/42/NetPractice/
 nav_order: 11
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Cub 3D
-parent: 42 GyeongSan
-permalink: /doc/42GS/Assignment/Cub3D/
+parent: 42
+grand_parent: Bootcamp
+permalink: /docs/Bootcamp/42/Cub3D/
 nav_order: 10
 ---
 

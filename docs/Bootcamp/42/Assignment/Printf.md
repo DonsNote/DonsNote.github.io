@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Ft_Printf
-parent: 42 GyeongSan
-permalink: /docs/Bootcamp/42GS/Assignment/Printf/
+parent: 42
+grand_parent: Bootcamp
+permalink: /docs/Bootcamp/42/Printf/
 nav_order: 2
 ---
 
