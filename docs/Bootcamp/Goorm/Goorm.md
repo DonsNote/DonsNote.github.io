@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Goorm Deep Dive
+title: Goorm
 parent: Bootcamp
 has_children: true
 nav_order: 2

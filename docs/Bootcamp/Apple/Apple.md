@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Apple Developer Academy
+title: Apple
 parent: Bootcamp
 has_children: true
 nav_order: 1
