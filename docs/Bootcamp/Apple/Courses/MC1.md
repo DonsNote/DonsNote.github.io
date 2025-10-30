@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Macro Challenge 1
-parent: Apple
-permalink: /doc/Apple/Courses/MC1/
 nav_order: 1
+title: Macro Challenge 1
+description: "First Macro Challenge"
+parent: Apple
+grand_parent: Bootcamp
+has_children: false
+permalink: /doc/Bootcamp/Apple/Macro Challenge 1/
 ---
 
 # Macro Challenge 1
