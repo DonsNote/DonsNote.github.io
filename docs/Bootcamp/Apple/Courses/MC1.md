@@ -1,14 +1,14 @@
 ---
 layout: default
 nav_order: 1
-title: Macro Challenge 1
-description: "First Macro Challenge"
+title: Mini Challenge 1
+description: "First Mini Challenge"
 parent: Apple
 grand_parent: Bootcamp
 has_children: false
-permalink: /doc/Bootcamp/Apple/Macro Challenge 1/
+permalink: /doc/Bootcamp/Apple/Mini Challenge 1/
 ---
 
-# Macro Challenge 1
+# Mini Challenge 1
 
 1. 첫 팀원과 함께 Play Ground를 활용한 App 제작.

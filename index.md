@@ -8,13 +8,17 @@ permalink: /
 
 ![](../../assets/images/Donsmemo.png){: .center-image}
 
-# Don (Kim do hyun)
+# Don
+- (Kim do hyun)
+
+---
 
 ## Personal History
 ```
 Aesopos Inc. CEO 2019 ~
-42 Gyeongsan - 2024 ~ 25
-Apple Developer Academy @ POSTECH - 2023
+Goorm Deep Dive P.M. 7th - 25 ~ 
+42 - 2024 ~ 25
+Apple Developer Academy @ POSTECH 2ed- 2023
 University of Toronto OISE : lv 60 - 2019
 Jeju tourism University : tourism management - 2012
 ```

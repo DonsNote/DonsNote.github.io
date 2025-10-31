@@ -1,0 +1,14 @@
+---
+layout: default
+nav_order: 3
+title: Mini Challenge 2
+description: "Mini Challenge"
+parent: Apple
+grand_parent: Bootcamp
+has_children: false
+permalink: /doc/Bootcamp/Apple/Mini Challenge 2/
+---
+
+# Mini Challenge 2
+
+1. 
