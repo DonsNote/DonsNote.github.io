@@ -5,7 +5,7 @@ title: Customer Analytics
 description: "Methodology"
 parent: Goorm
 grand_parent: Bootcamp
-has_children: false
+has_children: true
 permalink: /docs/Bootcamp/Goorm/Customer Analytics/
 ---
 
