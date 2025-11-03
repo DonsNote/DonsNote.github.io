@@ -119,4 +119,4 @@ permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 4/
 3. 준비한 인터뷰 기획을 바탕으로 조원에게 실제 인터뷰를 진행합니다. 이 과정에서 깨닫게 된 점과 개선해야 할 점을 구체적으로 정리합니다. (그룹)
 
 ## 참고 자료
-- [4강 개인(그룹)과제 PDF](../Data/4강%20개인과제.pdf)
+- [4강 개인(그룹)과제 PDF](/assets/pdf/goormca4gw.pdf)
