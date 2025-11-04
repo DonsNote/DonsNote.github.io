@@ -1,14 +1,14 @@
 ---
 layout: default
-nav_order: 7
-title: Macro Challenge
-description: "Macro Challenge"
+nav_order: 12
+title: Macro Chellange
+description: "Macro Chellange"
 parent: Apple
 grand_parent: Bootcamp
 has_children: false
-permalink: /doc/Bootcamp/Apple/Macro Challenge/
+permalink: /doc/Bootcamp/Apple/Macro Chellange/
 ---
 
-# Macro Challenge
+# Macro Chellange
 
 1. 

@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 1
+nav_order: 2
 title: Mini Challenge 1
-description: "First Mini Challenge"
+description: "First Challenge"
 parent: Apple
 grand_parent: Bootcamp
 has_children: false
