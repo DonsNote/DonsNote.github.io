@@ -2,34 +2,29 @@
 layout: default
 nav_order: 4
 title: Customer Analytics 4
-description: "Methodology"
+description: "Customer Interview"
 parent: Customer Analytics
 grand_parent: Goorm
 has_children: false
 permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 4/
 ---
 
-# 제 4 강
-* 고객분석 제 4 강 - 고객 인터뷰
+# 제 4 강 - 고객 인터뷰
 
 ## 사전 질문
 1. 고객 인터뷰만 가능하고 다른 고객 분석방법으로는 불가능한 고객 분석의 요소는 무엇일까? 가능한 구체적으로 생각해 봅시다
-    ```
     - 시간적 여유가 많이 없을 때 (인터뷰어와 기업 양쪽 모두)
     - 고객의 감정, 동기, 맥락 등 정성적인 데이터가 필요할 때
     - 고객의 실제 경험과 이야기를 직접 들어야 할 때
     - 새로운 인사이트나 예상치 못한 발견이 필요할 때
     - 고객과의 공감대 형성 및 깊이 있는 이해가 필요할 때
-    ```
 
 2. 인터뷰가 진짜 고객의 문제에 대해 이야기할 수 있도록 하기 위해서는 어떻게 인터뷰를 진행해야 할까요?
-    ```
     - 타겟팅 된 목표에 대한 세세한 질문이 아니라 포괄적인(범위적인) 질문을 작성한다
     - 열린 질문(Open-ended questions)을 사용하여 고객이 자유롭게 답변할 수 있도록 한다
     - 가설이나 편견 없이 중립적인 태도로 질문한다
     - 고객의 실제 경험과 행동에 대해 물어본다 (의견보다는 사실)
     - "왜?"라는 질문을 통해 근본적인 문제를 파악한다
-    ```
 
 
 ## 고객 인터뷰
