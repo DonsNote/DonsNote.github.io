@@ -9,7 +9,7 @@ has_children: false
 permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 1/
 ---
 
-# 제 1 강
+# 제 1 강 - 고객 분석
 
 ## 매니지먼트 과정 OT
 
