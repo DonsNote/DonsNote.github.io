@@ -287,4 +287,4 @@ Hook 모델은 니르 이얄(Nir Eyal)이 저서 『Hooked: 훅, 사용자의 �
 
 
 ## 참고 자료
-- [5강 개인(그룹)과제 PDF](/assets/pdf/goormca5gw.pdf)
+- [5강 실전 과제](/assets/pdf/goormca5gw.pdf)

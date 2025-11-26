@@ -554,4 +554,4 @@ permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 7/
 ---
 
 ## 참고 자료
-- [7강 개인 과제 PDF](/assets/pdf/goormca7gw.pdf)
+- [7강 실전 과제](/assets/pdf/goormca7gw.pdf)

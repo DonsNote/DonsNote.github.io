@@ -356,5 +356,5 @@ permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 6/
 ---
 
 ## 참고 자료
-- [6강 개인(그룹)과제 PDF](/assets/pdf/goormca6gw.pdf)
+- [6강 실전 과제](/assets/pdf/goormca6gw.pdf)
 - 빅 5 검사 - https://together.kakao.com/big-five
