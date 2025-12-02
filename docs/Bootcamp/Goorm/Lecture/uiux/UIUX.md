@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UI UX
+title: UIUX
 parent: Goorm
 grand_parent: Bootcamp
 has_children: true

@@ -3,7 +3,7 @@ layout: default
 nav_order: 1
 title: UI UX 1
 description: "User Interface / User Experience 1"
-parent: UI UX
+parent: UIUX
 grand_parent: Goorm
 has_children: false
 ---

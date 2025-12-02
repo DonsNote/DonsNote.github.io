@@ -3,10 +3,10 @@ layout: default
 nav_order: 4
 title: Customer Analytics 4
 description: "Customer Interview"
-parent: Goorm
-grand_parent: Bootcamp
+parent: CA
+grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 4/
+permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 4/
 ---
 
 # 제 4 강 - 고객 인터뷰

@@ -3,10 +3,10 @@ layout: default
 nav_order: 1
 title: Customer Analytics 1
 description: "Methodology"
-parent: Goorm
-grand_parent: Bootcamp
+parent: CA
+grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 1/
+permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 1/
 ---
 
 # 제 1 강 - 고객 분석

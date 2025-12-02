@@ -3,10 +3,10 @@ layout: default
 nav_order: 5
 title: Customer Analytics 5
 description: "Methodology"
-parent: Goorm
-grand_parent: Bootcamp
+parent: CA
+grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 5/
+permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 5/
 ---
 
 # 제 5 강 - 정량적 데이터 분석

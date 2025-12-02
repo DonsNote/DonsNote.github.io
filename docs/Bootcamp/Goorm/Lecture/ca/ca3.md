@@ -3,10 +3,10 @@ layout: default
 nav_order: 3
 title: Customer Analytics 3
 description: "Methodology"
-parent: Goorm
-grand_parent: Bootcamp
+parent: CA
+grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 3/
+permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 3/
 ---
 
 # 제 3 강 - 페르소나 (Persona)
