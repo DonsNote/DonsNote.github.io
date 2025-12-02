@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import "support/_variables";
+@import "color_schemes/light";
+@import "support/mixins/_typography";
+
 // Styles for rendered markdown in the .main-content container
 // stylelint-disable selector-no-type, max-nesting-depth, selector-max-compound-selectors, selector-max-type, selector-max-specificity, selector-max-id
 
@@ -102,7 +106,7 @@
 
   dl {
     display: grid;
-    grid-template: auto / 10em 1fr;
+    grid-template: auto / 10em / 1fr;
   }
 
   dt,

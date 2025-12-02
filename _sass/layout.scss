@@ -1,3 +1,8 @@
+@import "support/_variables";
+@import "color_schemes/light";
+@import "support/mixins/_layout";
+@import "support/mixins/_typography";
+
 // The basic two column layout
 
 .side-bar {
@@ -16,7 +21,7 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: calc((100% - (#{$nav-width} + #{$content-width}) / 2 + #{$nav-width}));
     min-width: $nav-width;
   }
 }
@@ -33,7 +38,7 @@
     // disable for Max(), we want to use the CSS max() function
     margin-left: Max(
       #{$nav-width},
-      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+      calc((100% - (#{$nav-width} + #{$content-width}) / 2 + #{$nav-width}))
     );
     // stylelint-enable function-name-case
   }

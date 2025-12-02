@@ -1,3 +1,5 @@
+@import '../_variables';
+
 // Media query
 
 // Media query mixin
@@ -12,7 +14,7 @@
   // If the key exists in the map
   @if $value {
     // Prints a media query based on the value
-    @media (min-width: rem($value)) {
+    @media (min-width: rem($value, 16px)) {
       @content;
     }
   } @else {
