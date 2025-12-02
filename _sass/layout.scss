@@ -27,6 +27,7 @@
 .main {
   position: relative;
   margin-left: $nav-width-md;
+  margin-top: 0;
 
   @include mq(lg) {
     margin-left: $nav-width;
@@ -37,36 +38,35 @@
 .main-content-wrap {
   @include container;
 
-  padding-top: $gutter-spacing-sm;
+  padding-top: calc($header-height + $gutter-spacing-sm);
   padding-bottom: $gutter-spacing-sm;
   width: 100%;
   max-width: 100%;
 
   @include mq(md) {
-    padding-top: $gutter-spacing;
+    padding-top: calc($header-height + $gutter-spacing);
     padding-bottom: $gutter-spacing;
   }
 }
 
 .main-header {
-  z-index: 0;
-  display: none;
-  background-color: $sidebar-color;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: $nav-width-md;
+  display: flex;
+  justify-content: space-between;
+  height: $header-height;
+  background-color: $body-background-color;
+  border-bottom: $border $border-color;
 
-  @include mq(md) {
-    display: flex;
-    justify-content: space-between;
-    height: $header-height;
-    background-color: $body-background-color;
-    border-bottom: $border $border-color;
+  @include mq(lg) {
+    left: $nav-width;
   }
 
   &.nav-open {
-    display: block;
-
-    @include mq(md) {
-      display: flex;
-    }
+    display: flex;
   }
 }
 
@@ -81,19 +81,11 @@
 }
 
 .site-nav {
-  display: none;
-
-  &.nav-open {
-    display: block;
-  }
-
-  @include mq(md) {
-    display: block;
-    padding-top: $sp-8;
-    padding-bottom: $gutter-spacing-sm;
-    overflow-y: auto;
-    flex: 1 1 auto;
-  }
+  display: block;
+  padding-top: $sp-8;
+  padding-bottom: $gutter-spacing-sm;
+  overflow-y: auto;
+  flex: 1 1 auto;
 }
 
 .site-header {
@@ -138,16 +130,10 @@
 }
 
 .site-button {
-  display: flex;
+  display: none;
   height: 100%;
   padding: $gutter-spacing-sm;
   align-items: center;
-}
-
-@include mq(md) {
-  .site-header .site-button {
-    display: none;
-  }
 }
 
 .site-title:hover {
