@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 1
-title: Customer Analytics
+title: CA
 description: "Methodology"
 parent: Goorm
 grand_parent: Bootcamp
@@ -14,4 +14,7 @@ permalink: /docs/Bootcamp/Goorm/Customer Analytics/
 * 고객 기회 발견
 * 페르소나
 * 고객 인터뷰
+* 
+* 
+* 
 

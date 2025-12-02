@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 2
-title: UI UX
+title: UIUX
 description: "User Interface / User Experience"
 parent: Goorm
 grand_parent: Bootcamp
