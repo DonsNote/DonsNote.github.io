@@ -3,8 +3,8 @@ layout: default
 nav_order: 6
 title: Customer Analytics 6
 description: "Methodology"
-parent: Customer Analytics
-grand_parent: Goorm
+parent: CA
+grand_parent: Lecture
 has_children: false
 permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 6/
 ---

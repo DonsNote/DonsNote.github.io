@@ -4,9 +4,8 @@ nav_order: 1
 title: UI UX 1
 description: "User Interface / User Experience 1"
 parent: UI UX
-grand_parent: Goorm
+grand_parent: Lecture
 has_children: false
-permalink: /docs/Bootcamp/Goorm/UI UX/UI UX 1/
 ---
 
 # 제 1 강 - 디자인의 본질

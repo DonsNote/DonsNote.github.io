@@ -3,8 +3,8 @@ layout: default
 nav_order: 4
 title: Customer Analytics 4
 description: "Customer Interview"
-parent: Customer Analytics
-grand_parent: Goorm
+parent: CA
+grand_parent: Lecture
 has_children: false
 permalink: /docs/Bootcamp/Goorm/Customer Analytics/Customer Analytics 4/
 ---

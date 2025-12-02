@@ -8,17 +8,15 @@
 .side-bar {
   z-index: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column nowrap;
+  position: fixed;
+  width: $nav-width-md;
+  height: 100%;
   background-color: $sidebar-color;
-
-  @include mq(md) {
-    flex-flow: column nowrap;
-    position: fixed;
-    width: $nav-width-md;
-    height: 100%;
-    border-right: $border $border-color;
-    align-items: flex-end;
-  }
+  border-right: $border $border-color;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
 
   @include mq(lg) {
     width: $nav-width;
@@ -27,13 +25,10 @@
 }
 
 .main {
-  @include mq(md) {
-    position: relative;
-    margin-left: $nav-width-md;
-  }
+  position: relative;
+  margin-left: $nav-width-md;
 
   @include mq(lg) {
-    position: relative;
     margin-left: $nav-width;
     width: calc(100% - #{$nav-width});
   }
@@ -78,7 +73,7 @@
 .site-nav,
 .site-header,
 .site-footer {
-  width: 100%;
+  width: $nav-width-md;
 
   @include mq(lg) {
     width: $nav-width;
