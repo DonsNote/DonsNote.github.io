@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: DonsNote
 description: Dons Learning Page
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+#baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://DonsNote.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: DonsNote/DonsNote.github.io # for github-metadata
 
