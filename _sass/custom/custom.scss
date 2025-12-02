@@ -4,10 +4,10 @@
 
 // 폰트 Import
 // 본문용 - Spoqa Han Sans Neo
-@import url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/css/SpoqaHanSansNeo.css');
+@import 'https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/css/SpoqaHanSansNeo.css';
 
 // 코드용 - Source Code Pro (Semi Bold)
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap';
 
 
 // ============================================
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, #toctitle {
 // 💻 코드 - Source Code Pro Semi Bold (600)
 // ============================================
 code, pre, .text-mono {
-  font-family: 'Source Code Pro', 'Consolas', 'Monaco', monospace !important;
+  font-family: 'Source Code Pro', Consolas, Monaco, monospace !important;
   font-weight: 600; // Semi Bold
 }
 
