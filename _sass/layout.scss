@@ -29,14 +29,13 @@
 .main {
   @include mq(md) {
     position: relative;
-    max-width: $content-width;
     margin-left: $nav-width-md;
   }
 
   @include mq(lg) {
     position: relative;
-    max-width: $content-width;
     margin-left: $nav-width;
+    width: calc(100% - #{$nav-width});
   }
 }
 
@@ -45,6 +44,8 @@
 
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
+  width: 100%;
+  max-width: 100%;
 
   @include mq(md) {
     padding-top: $gutter-spacing;
