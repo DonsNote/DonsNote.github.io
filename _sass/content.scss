@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import "support/_variables";
+@import "support/variables";
 @import "color_schemes/light";
-@import "support/mixins/_typography";
+@import "support/mixins/typography";
 
 // Styles for rendered markdown in the .main-content container
 // stylelint-disable selector-no-type, max-nesting-depth, selector-max-compound-selectors, selector-max-type, selector-max-specificity, selector-max-id

@@ -1,7 +1,7 @@
 // Utility classes for typography
 
-@import "../support/_variables";
-@import "../support/mixins/_typography";
+@import "../support/variables";
+@import "../support/mixins/typography";
 
 .fs-1 {
   @include fs-1;

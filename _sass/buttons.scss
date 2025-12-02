@@ -1,9 +1,9 @@
 // Buttons and things that look like buttons
 // stylelint-disable color-named
 
-@import "support/_variables";
+@import "support/variables";
 @import "color_schemes/light";
-@import "support/mixins/_buttons";
+@import "support/mixins/buttons";
 
 .btn {
   display: inline-block;

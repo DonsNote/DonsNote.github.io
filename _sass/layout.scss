@@ -1,7 +1,7 @@
-@import "support/_variables";
+@import "support/variables";
 @import "color_schemes/light";
-@import "support/mixins/_layout";
-@import "support/mixins/_typography";
+@import "support/mixins/layout";
+@import "support/mixins/typography";
 
 // The basic two column layout
 
@@ -21,7 +21,9 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - (#{$nav-width} + #{$content-width}) / 2 + #{$nav-width}));
+    width: calc(
+      (100% - (#{$nav-width} + #{$content-width}) / 2 + #{$nav-width})
+    );
     min-width: $nav-width;
   }
 }
