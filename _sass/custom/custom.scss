@@ -4,38 +4,51 @@
 
 // 폰트 Import
 // 본문용 - Spoqa Han Sans Neo
-@import 'https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/css/SpoqaHanSansNeo.css';
+@import "https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/css/SpoqaHanSansNeo.css";
 
 // 코드용 - Source Code Pro (Semi Bold)
-@import 'https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap';
-
+@import "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap";
 
 // ============================================
 // 📄 본문 텍스트 - Spoqa Han Sans Neo
 // ============================================
 body {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
 }
 
-p, li, td, dd, dt, a {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+p,
+li,
+td,
+dd,
+dt,
+a {
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
 }
-
 
 // ============================================
 // 📌 제목 - Spoqa Han Sans Neo Bold
 // ============================================
-h1, h2, h3, h4, h5, h6, #toctitle {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#toctitle {
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
   font-weight: 700;
 }
-
 
 // ============================================
 // 💻 코드 - Source Code Pro Semi Bold (600)
 // ============================================
-code, pre, .text-mono {
-  font-family: 'Source Code Pro', Consolas, Monaco, monospace !important;
+code,
+pre,
+.text-mono {
+  font-family: "Source Code Pro", Consolas, Monaco, monospace !important;
   font-weight: 600; // Semi Bold
 }
 
@@ -50,15 +63,14 @@ pre code {
   font-weight: 600;
 }
 
-
 // ============================================
 // 🔗 네비게이션 - Spoqa Han Sans Neo
 // ============================================
 .nav-list {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
   font-weight: 500;
 }
-
 
 // ============================================
 // 📦 기타 요소
@@ -66,22 +78,24 @@ pre code {
 
 // 버튼
 .btn {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
   font-weight: 700;
 }
 
 // 테이블 헤더
 th {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
   font-weight: 700;
 }
 
 // 인용구
 blockquote {
-  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif !important;
   font-weight: 400;
 }
-
 
 // ============================================
 // 🖼️ 기존 커스텀 스타일
