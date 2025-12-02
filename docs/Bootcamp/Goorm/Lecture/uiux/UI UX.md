@@ -1,8 +1,8 @@
 ---
 layout: default
 title: UI UX
-parent: Lecture
-grand_parent: Goorm
+parent: Goorm
+grand_parent: Bootcamp
 has_children: true
 nav_order: 1
 ---

@@ -4,7 +4,7 @@ nav_order: 1
 title: UI UX 1
 description: "User Interface / User Experience 1"
 parent: UI UX
-grand_parent: Lecture
+grand_parent: Goorm
 has_children: false
 ---
 

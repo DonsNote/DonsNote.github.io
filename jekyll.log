@@ -10645,3 +10645,583 @@ WARNING: 101 repetitive deprecation warnings omitted.
 Run in verbose mode to see all warnings.
                     ...done in 1.787174 seconds.
                     
+      Regenerating: 1 file(s) changed at 2025-12-02 15:25:06
+                    docs/Bootcamp/Goorm/Lecture/Lecture.md
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │ @import "./color_schemes/light";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 3:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./color_schemes/dark";
+  │         ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 5:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "./custom/setup";
+  │         ^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 7:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 8:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+77 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 77:8      @use
+    support/support.scss 1:1                                                                           @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+78 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 78:8      @use
+    support/support.scss 1:1                                                                           @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+79 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 79:8      @use
+    support/support.scss 1:1                                                                           @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+80 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 80:8      @use
+    support/support.scss 1:1                                                                           @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+81 │ $sp-5: map-get($spacers, sp-5) !default; // 1.5  rem == 24px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 81:8      @use
+    support/support.scss 1:1                                                                           @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 2:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -10.625%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+12 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    color_schemes/light.scss 12:18                                                                     @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 3:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8888888889%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+11 │ $feedback-color: darken($sidebar-color, 3%);
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    color_schemes/dark.scss 11:18                                                                      @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 5:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.4693877551%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+40 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 40:12                @import
+    modules.scss 11:9                                                                                  @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 8:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.1515151515%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+48 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 48:23                @import
+    modules.scss 11:9                                                                                  @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 8:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -15.4545454545%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+54 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 54:23                @import
+    modules.scss 11:9                                                                                  @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-dark.scss 8:9  root stylesheet
+WARNING: 113 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "./color_schemes/light";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 4:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "./custom/setup";
+  │         ^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 6:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+356 │ @import "./custom/custom";
+    │         ^^^^^^^^^^^^^^^^^
+    ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 356:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+77 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 77:8         @use
+    support/support.scss 1:1                                                                              @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+78 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 78:8         @use
+    support/support.scss 1:1                                                                              @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+79 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 79:8         @use
+    support/support.scss 1:1                                                                              @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+80 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 80:8         @use
+    support/support.scss 1:1                                                                              @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+81 │ $sp-5: map-get($spacers, sp-5) !default; // 1.5  rem == 24px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 81:8         @use
+    support/support.scss 1:1                                                                              @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 3:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -10.625%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+12 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    color_schemes/light.scss 12:18                                                                        @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 4:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.1875%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+40 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 40:12                   @import
+    modules.scss 11:9                                                                                     @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -1.032388664%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+48 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 48:23                   @import
+    modules.scss 11:9                                                                                     @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0971659919%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+54 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 54:23                   @import
+    modules.scss 11:9                                                                                     @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.7954545455%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+60 │     background-color: darken(#dcdcdc, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 60:23                   @import
+    modules.scss 11:9                                                                                     @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-default.scss 7:9  root stylesheet
+WARNING: 101 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "./support/support";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │ @import "./color_schemes/light";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 3:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./custom/setup";
+  │         ^^^^^^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 5:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "./modules";
+  │         ^^^^^^^^^^^
+  ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+355 │ @import "./custom/custom";
+    │         ^^^^^^^^^^^^^^^^^
+    ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 355:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+77 │ $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 77:8       @use
+    support/support.scss 1:1                                                                            @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+78 │ $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 78:8       @use
+    support/support.scss 1:1                                                                            @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+79 │ $sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 79:8       @use
+    support/support.scss 1:1                                                                            @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+80 │ $sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 80:8       @use
+    support/support.scss 1:1                                                                            @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+81 │ $sp-5: map-get($spacers, sp-5) !default; // 1.5  rem == 24px
+   │        ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/support/_variables.scss 81:8       @use
+    support/support.scss 1:1                                                                            @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 2:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -10.625%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+12 │ $feedback-color: darken($sidebar-color, 3%) !default;
+   │                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    color_schemes/light.scss 12:18                                                                      @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 3:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.1875%)
+color.adjust($color, $lightness: -2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+40 │     color: darken($link-color, 2%);
+   │            ^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 40:12                 @import
+    modules.scss 11:9                                                                                   @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -1.032388664%)
+color.adjust($color, $lightness: -1%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+48 │     background-color: darken($base-button-color, 1%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 48:23                 @import
+    modules.scss 11:9                                                                                   @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -3.0971659919%)
+color.adjust($color, $lightness: -3%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+54 │     background-color: darken($base-button-color, 3%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 54:23                 @import
+    modules.scss 11:9                                                                                   @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -5.7954545455%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+60 │     background-color: darken(#dcdcdc, 5%);
+   │                       ^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/_sass/buttons.scss 60:23                 @import
+    modules.scss 11:9                                                                                   @import
+    /Users/neveradio/Desktop/Develop/Github/DonsNote.github.io/assets/css/just-the-docs-light.scss 6:9  root stylesheet
+WARNING: 101 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 1.644631 seconds.
+                    
+[2025-12-02 15:25:18] ERROR FrozenError: can't modify frozen String: ""
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:484:in 'block in WEBrick::HTTPServlet::FileHandler#set_dir_list'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:484:in 'Hash#each'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:484:in 'Enumerable#inject'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:484:in 'WEBrick::HTTPServlet::FileHandler#set_dir_list'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:247:in 'WEBrick::HTTPServlet::FileHandler#do_GET'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve/servlet.rb:161:in 'Jekyll::Commands::Serve::Servlet#do_GET'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/abstract.rb:105:in 'WEBrick::HTTPServlet::AbstractServlet#service'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpservlet/filehandler.rb:242:in 'WEBrick::HTTPServlet::FileHandler#service'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:140:in 'WEBrick::HTTPServer#service'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:96:in 'WEBrick::HTTPServer#run'
+	/opt/homebrew/lib/ruby/gems/3.4.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in 'block in WEBrick::GenericServer#start_thread'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.4.1   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:291:in 'Thread#join': SIGTERM (SignalException)
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:291:in 'Jekyll::Commands::Serve.boot_or_detach'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:221:in 'Jekyll::Commands::Serve.start_up_webrick'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:102:in 'Jekyll::Commands::Serve.process'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'block in Jekyll::Command.process_with_graceful_fail'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'Array#each'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'Jekyll::Command.process_with_graceful_fail'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:85:in 'block (2 levels) in Jekyll::Commands::Serve.init_with_program'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'block in Mercenary::Command#execute'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'Array#each'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'Mercenary::Command#execute'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in 'Mercenary::Program#go'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in 'Mercenary.program'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/gems/jekyll-4.4.1/exe/jekyll:15:in '<top (required)>'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/rubygems.rb:319:in 'Kernel#load'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/rubygems.rb:319:in 'Gem.activate_and_load_bin_path'
+	from /opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll:25:in '<top (required)>'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli/exec.rb:59:in 'Kernel.load'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli/exec.rb:59:in 'Bundler::CLI::Exec#kernel_load'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli/exec.rb:23:in 'Bundler::CLI::Exec#run'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli.rb:456:in 'Bundler::CLI#exec'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/vendor/thor/lib/thor/command.rb:28:in 'Bundler::Thor::Command#run'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in 'Bundler::Thor::Invocation#invoke_command'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/vendor/thor/lib/thor.rb:538:in 'Bundler::Thor.dispatch'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli.rb:35:in 'Bundler::CLI.dispatch'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/vendor/thor/lib/thor/base.rb:584:in 'Bundler::Thor::Base::ClassMethods#start'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/cli.rb:29:in 'Bundler::CLI.start'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.7.2/exe/bundle:28:in 'block in <top (required)>'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/bundler/friendly_errors.rb:118:in 'Bundler.with_friendly_errors'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.7.2/exe/bundle:20:in '<top (required)>'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/rubygems.rb:319:in 'Kernel#load'
+	from /opt/homebrew/Cellar/ruby/3.4.7/lib/ruby/3.4.0/rubygems.rb:319:in 'Gem.activate_and_load_bin_path'
+	from /opt/homebrew/opt/ruby/bin/bundle:25:in '<main>'
