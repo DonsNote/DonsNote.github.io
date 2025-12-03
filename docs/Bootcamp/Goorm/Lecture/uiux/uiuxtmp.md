@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 nav_order: 
 title: UIUX
@@ -6,7 +6,7 @@ description: "User Interface / User Experience"
 parent: UIUX
 grand_parent: Goorm
 has_children: false
----
+--- -->
 
 # 제 강 - 
 
