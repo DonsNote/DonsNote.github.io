@@ -6,7 +6,7 @@ description: "Methodology"
 parent: Goorm
 grand_parent: Bootcamp
 has_children: true
-permalink: /docs/Bootcamp/Goorm/Customer Analytics/
+permalink: /docs/Bootcamp/Goorm/Courses/ca/
 ---
 
 # Customer Analytics(고객 분석)

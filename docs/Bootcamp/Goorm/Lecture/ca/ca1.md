@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 1/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca1/
 ---
 
 # 제 1 강 - 고객 분석
