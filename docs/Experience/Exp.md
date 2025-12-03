@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experience
-nav_order: 4
+nav_order: 3
 has_children: true
 permalink: /docs/Experience/Exp/
 ---
