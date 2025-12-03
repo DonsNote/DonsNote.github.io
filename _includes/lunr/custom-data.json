@@ -1,0 +1,17 @@
+---
+---
+{%- assign items = site.documents -%}
+{
+  "docs": [
+    {%- for item in items -%}
+      {%- if item.search_exclude != true -%}
+      {
+        "id": "{{ item.url | slugify }}",
+        "title": {{ item.title | default: item.name | default: "Untitled" | jsonify }},
+        "url": "{{ item.url | relative_url }}",
+        "body": {{ item.content | markdownify | strip_html | jsonify }}
+      }{%- unless forloop.last %},{%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
