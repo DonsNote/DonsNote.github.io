@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 5
-title: Customer Analytics 5
+title: Customer Analytics 5 - 데이터 분석
 description: "Methodology"
 parent: CA
 grand_parent: Goorm

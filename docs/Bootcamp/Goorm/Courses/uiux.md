@@ -8,7 +8,3 @@ grand_parent: Bootcamp
 has_children: true
 permalink: /docs/Bootcamp/Goorm/Courses/uiux/
 ---
-
-# UI / UX
-* 
-

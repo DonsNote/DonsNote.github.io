@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 7
-title: Customer Analytics 7
+title: Customer Analytics 7 - PRD
 description: "Methodology"
 parent: CA
 grand_parent: Goorm
