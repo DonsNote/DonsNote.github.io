@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 4
-title: Customer Analytics 4 - 고객 인터뷰
+title: Customer Analysis 4 - 고객 인터뷰
 description: "Customer Interview"
 parent: CA
 grand_parent: Goorm

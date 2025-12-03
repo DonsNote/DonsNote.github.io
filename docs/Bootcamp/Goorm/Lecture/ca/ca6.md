@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 6
-title: Customer Analytics 6 - 세그멘테이션
+title: Customer Analysis 6 - 세그멘테이션
 description: "Methodology"
 parent: CA
 grand_parent: Goorm

@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 3
-title: Customer Analytics 3 - 페르소나
+title: Customer Analysis 3 - 페르소나
 description: "Methodology"
 parent: CA
 grand_parent: Goorm

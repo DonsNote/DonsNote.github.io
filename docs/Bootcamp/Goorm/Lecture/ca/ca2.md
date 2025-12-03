@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 2
-title: Customer Analytics 2 - 고객 기회 발견
+title: Customer Analysis 2 - 고객 기회 발견
 description: "Methodology"
 parent: CA
 grand_parent: Goorm

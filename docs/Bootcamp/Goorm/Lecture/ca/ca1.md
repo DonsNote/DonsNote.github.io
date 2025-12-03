@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 1
-title: Customer Analytics 1 - 고객문제 접근
+title: Customer Analysis 1 - 고객문제 접근
 description: "Methodology"
 parent: CA
 grand_parent: Goorm
