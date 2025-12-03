@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bootcamp
-nav_order: 2
+nav_order: 4
 has_children: true
 permalink: /docs/Bootcamp
 ---
