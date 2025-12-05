@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 3
-title: UIUX
+title: UIUX 3 - UX 리서치
 description: "User Interface / User Experience 3"
 parent: UIUX
 grand_parent: Goorm
