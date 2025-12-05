@@ -9,6 +9,9 @@ node_modules
 .serena/
 .claude/
 
+#Copilot
+.github/
+
 # jekyll
 .jekyll-cache
 
