@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 6/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca6/
 ---
 
 # 제 6 강 - 세그멘테이션

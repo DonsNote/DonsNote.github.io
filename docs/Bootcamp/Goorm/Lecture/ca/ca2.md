@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 2/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca2/
 ---
 
 # 제 2 강 - 고객 기회 발견

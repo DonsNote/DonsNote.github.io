@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 5/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca5/
 ---
 
 # 제 5 강 - 정량적 데이터 분석

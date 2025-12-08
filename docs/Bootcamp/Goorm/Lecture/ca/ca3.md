@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 3/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca3/
 ---
 
 # 제 3 강 - 페르소나 (Persona)

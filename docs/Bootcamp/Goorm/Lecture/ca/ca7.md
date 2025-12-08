@@ -6,7 +6,7 @@ description: "Methodology"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 7/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca7/
 ---
 
 # 제 7 강 - PRD

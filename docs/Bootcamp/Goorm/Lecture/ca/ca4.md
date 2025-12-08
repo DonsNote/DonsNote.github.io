@@ -6,7 +6,7 @@ description: "Customer Interview"
 parent: CA
 grand_parent: Goorm
 has_children: false
-permalink: /docs/Bootcamp/Goorm/CA/Customer Analytics 4/
+permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca4/
 ---
 
 # 제 4 강 - 고객 인터뷰
