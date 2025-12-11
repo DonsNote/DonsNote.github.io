@@ -90,6 +90,10 @@
         );
       }
 
+      svg {
+        pointer-events: none;
+      }
+
       @if $nav-list-expander-right {
         svg {
           transform: rotate(90deg);
