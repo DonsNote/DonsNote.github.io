@@ -1,14 +1,14 @@
----
+<!-- ---
 layout: default
-nav_order: 1
-title: PSA
-description: "UProblem-Solving and Analytical Skills 1"
-parent: PSA
+nav_order: 
+title: TI
+description: "Technology Trends and Industry Insights "
+parent: TI
 grand_parent: Goorm
 has_children: false
----
+--- -->
 
-# 제 1 강 - 
+# 제 강 - 
 
 ## 사전 질문
 1. 
@@ -26,8 +26,8 @@ has_children: false
 1. 
 
 ## 참고 자료
-- [1강 연구 과제 PDF](/assets/pdf/goormpsa1iw.pdf)
-- [1강 실전 과제 PDF](/assets/pdf/goormpsa1gw.pdf)
+- [강 연구 과제 PDF](/assets/pdf/goormtiiw.pdf)
+- [강 실전 과제 PDF](/assets/pdf/goormtigw.pdf)
 
 ### 학습 자료 및 출처
 
