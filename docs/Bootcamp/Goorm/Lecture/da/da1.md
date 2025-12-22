@@ -685,114 +685,45 @@ T (Time-bound): 기간 명시
 
 #### 관련 강의 및 코스
 
-- **Google Data Analytics Professional Certificate**
-  https://www.coursera.org/professional-certificates/google-data-analytics
-  데이터 분석 기초부터 실무까지 체계적 학습
-
-- **Product Analytics Micro-Certification (Pendo)**
-  https://www.pendo.io/product-analytics-certification/
-  제품 분석 전문 인증 과정
-
-- **Reforge - Product Analytics**
-  https://www.reforge.com/
-  PM을 위한 고급 제품 분석 과정
-
-- **DataCamp - Data Analyst Track**
-  https://www.datacamp.com/tracks/data-analyst-with-python
-  Python 기반 데이터 분석 실습
+- [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) - 데이터 분석 기초부터 실무까지 체계적 학습
+- [Product Analytics Micro-Certification (Pendo)](https://www.pendo.io/product-analytics-certification/) - 제품 분석 전문 인증 과정
+- [Reforge - Product Analytics](https://www.reforge.com/) - PM을 위한 고급 제품 분석 과정
+- [DataCamp - Data Analyst Track](https://www.datacamp.com/tracks/data-analyst-with-python) - Python 기반 데이터 분석 실습
 
 #### 실무 사례 참고
 
-- **Amplitude Blog**
-  https://amplitude.com/blog
-  제품 분석 사례 및 베스트 프랙티스
-
-- **Mixpanel Resources**
-  https://mixpanel.com/blog/
-  이벤트 기반 분석 및 사용자 행동 분석 사례
-
-- **Mode Analytics Blog**
-  https://mode.com/blog/
-  SQL 기반 분석 및 데이터 시각화 사례
-
-- **Towards Data Science (Medium)**
-  https://towardsdatascience.com/
-  데이터 사이언스 실무 사례 및 튜토리얼
-
-- **First Round Review - Data Articles**
-  https://review.firstround.com/
-  스타트업 데이터 활용 사례
+- [Amplitude Blog](https://amplitude.com/blog) - 제품 분석 사례 및 베스트 프랙티스
+- [Mixpanel Resources](https://mixpanel.com/blog/) - 이벤트 기반 분석 및 사용자 행동 분석 사례
+- [Mode Analytics Blog](https://mode.com/blog/) - SQL 기반 분석 및 데이터 시각화 사례
+- [Towards Data Science (Medium)](https://towardsdatascience.com/) - 데이터 사이언스 실무 사례 및 튜토리얼
+- [First Round Review - Data Articles](https://review.firstround.com/) - 스타트업 데이터 활용 사례
 
 #### YouTube
 
-- **StatQuest with Josh Starmer**
-  https://www.youtube.com/@statquest
-  통계와 머신러닝 개념을 쉽게 설명
-
-- **Alex The Analyst**
-  https://www.youtube.com/@AlexTheAnalyst
-  데이터 분석 실무 튜토리얼
-
-- **Lenny's Podcast**
-  https://www.youtube.com/@LennysPodcast
-  PM의 데이터 활용 사례 및 인터뷰
-
-- **Data School**
-  https://www.youtube.com/@dataschool
-  데이터 분석 도구 활용법
+- [StatQuest with Josh Starmer](https://www.youtube.com/@statquest) - 통계와 머신러닝 개념을 쉽게 설명
+- [Alex The Analyst](https://www.youtube.com/@AlexTheAnalyst) - 데이터 분석 실무 튜토리얼
+- [Lenny's Podcast](https://www.youtube.com/@LennysPodcast) - PM의 데이터 활용 사례 및 인터뷰
+- [Data School](https://www.youtube.com/@dataschool) - 데이터 분석 도구 활용법
 
 #### 커뮤니티
 
-- **dbt Community**
-  https://www.getdbt.com/community/
-  데이터 엔지니어링 및 분석 커뮤니티
-
-- **Data Science subreddit**
-  https://www.reddit.com/r/datascience/
-  데이터 사이언스 토론 및 질의응답
-
-- **Analytics subreddit**
-  https://www.reddit.com/r/analytics/
-  분석 도구 및 방법론 토론
-
-- **Locally Optimistic**
-  https://locallyoptimistic.com/
-  데이터 리더십 커뮤니티 블로그
-
-- **DataTalks.Club**
-  https://datatalks.club/
-  데이터 엔지니어링 및 분석 학습 커뮤니티
+- [dbt Community](https://www.getdbt.com/community/) - 데이터 엔지니어링 및 분석 커뮤니티
+- [Data Science subreddit](https://www.reddit.com/r/datascience/) - 데이터 사이언스 토론 및 질의응답
+- [Analytics subreddit](https://www.reddit.com/r/analytics/) - 분석 도구 및 방법론 토론
+- [Locally Optimistic](https://locallyoptimistic.com/) - 데이터 리더십 커뮤니티 블로그
+- [DataTalks.Club](https://datatalks.club/) - 데이터 엔지니어링 및 분석 학습 커뮤니티
 
 #### 도구 및 프로토 타이핑
 
-- **Google Analytics**
-  https://analytics.google.com/
-  웹/앱 트래픽 분석 기본 도구
-
-- **Amplitude**
-  https://amplitude.com/
-  제품 분석 및 사용자 행동 분석
-
-- **Mixpanel**
-  https://mixpanel.com/
-  이벤트 기반 사용자 분석
-
-- **Hotjar / FullStory**
-  https://www.hotjar.com/ / https://www.fullstory.com/
-  세션 리플레이 및 히트맵
-
-- **Tableau / Looker**
-  https://www.tableau.com/ / https://looker.com/
-  데이터 시각화 및 BI 도구
-
-- **SQL (Mode Analytics / BigQuery)**
-  https://mode.com/ / https://cloud.google.com/bigquery
-  SQL 기반 데이터 분석 환경
-
-- **Python (Pandas, NumPy, Matplotlib)**
-  https://pandas.pydata.org/
-  데이터 분석을 위한 Python 라이브러리
-
-- **Notion / Coda**
-  https://www.notion.so/ / https://coda.io/
-  가설 문서화 및 실험 기록
+- [Google Analytics](https://analytics.google.com/) - 웹/앱 트래픽 분석 기본 도구
+- [Amplitude](https://amplitude.com/) - 제품 분석 및 사용자 행동 분석
+- [Mixpanel](https://mixpanel.com/) - 이벤트 기반 사용자 분석
+- [Hotjar](https://www.hotjar.com/) - 세션 리플레이 및 히트맵
+- [FullStory](https://www.fullstory.com/) - 사용자 경험 분석
+- [Tableau](https://www.tableau.com/) - 데이터 시각화 및 대시보드
+- [Looker](https://looker.com/) - BI 및 데이터 탐색
+- [Mode Analytics](https://mode.com/) - SQL 기반 데이터 분석 환경
+- [Google BigQuery](https://cloud.google.com/bigquery) - 클라우드 데이터 웨어하우스
+- [Pandas](https://pandas.pydata.org/) - Python 데이터 분석 라이브러리
+- [Notion](https://www.notion.so/) - 가설 문서화 및 실험 기록
+- [Coda](https://coda.io/) - 협업 문서 및 데이터 관리

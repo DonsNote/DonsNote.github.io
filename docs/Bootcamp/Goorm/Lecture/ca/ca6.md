@@ -357,4 +357,4 @@ permalink: /docs/Bootcamp/Goorm/Lecture/ca/ca6/
 
 ## 참고 자료
 - [6강 실전 과제](/assets/pdf/goormca6gw.pdf)
-- 빅 5 검사 - https://together.kakao.com/big-five
+- [빅 5 검사](https://together.kakao.com/big-five) - 성격 유형 검사 도구

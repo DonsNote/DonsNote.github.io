@@ -1013,164 +1013,62 @@ Step 3: "분석 결과를 바탕으로 실행 계획을 수립해줘"
 
 #### 서적
 
-- **"Attention Is All You Need"** - Vaswani et al. (2017)
-  https://arxiv.org/abs/1706.03762
-  Transformer 아키텍처의 원본 논문, 자기 주의 메커니즘의 기초
-
-- **"Language Models are Few-Shot Learners" (GPT-3 Paper)** - Brown et al. (2020)
-  https://arxiv.org/abs/2005.14165
-  대규모 언어 모델의 능력과 프롬프트 엔지니어링 기초
-
-- **"Denoising Diffusion Probabilistic Models"** - Ho et al. (2020)
-  https://arxiv.org/abs/2006.11239
-  확산 모델의 핵심 원리
-
-- **"High-Resolution Image Synthesis with Latent Diffusion Models"** - Rombach et al. (2022)
-  https://arxiv.org/abs/2112.10752
-  Stable Diffusion의 기반 논문
-
-- **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"** - Lewis et al. (2020)
-  https://arxiv.org/abs/2005.11401
-  RAG 기법의 원본 논문
+- [Attention Is All You Need - Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762) - Transformer 아키텍처의 원본 논문, 자기 주의 메커니즘의 기초
+- [Language Models are Few-Shot Learners - GPT-3 Paper (2020)](https://arxiv.org/abs/2005.14165) - 대규모 언어 모델의 능력과 프롬프트 엔지니어링 기초
+- [Denoising Diffusion Probabilistic Models - Ho et al. (2020)](https://arxiv.org/abs/2006.11239) - 확산 모델의 핵심 원리
+- [High-Resolution Image Synthesis with Latent Diffusion Models (2022)](https://arxiv.org/abs/2112.10752) - Stable Diffusion의 기반 논문
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)](https://arxiv.org/abs/2005.11401) - RAG 기법의 원본 논문
 
 #### 관련 강의 및 코스
 
-- **Anthropic Prompt Engineering Guide**
-  https://docs.anthropic.com/claude/docs/prompt-engineering
-  프롬프트 엔지니어링 공식 가이드
-
-- **OpenAI Prompt Engineering Guide**
-  https://platform.openai.com/docs/guides/prompt-engineering
-  GPT 모델을 위한 프롬프트 설계 가이드
-
-- **DeepLearning.AI - ChatGPT Prompt Engineering for Developers**
-  https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
-  Andrew Ng의 프롬프트 엔지니어링 무료 강좌
-
-- **Stanford CS324 - Large Language Models**
-  https://stanford-cs324.github.io/winter2022/
-  LLM에 대한 체계적인 학술 강의
-
-- **Hugging Face NLP Course**
-  https://huggingface.co/course
-  Transformer 및 NLP 실습 과정
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering) - 프롬프트 엔지니어링 공식 가이드
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - GPT 모델을 위한 프롬프트 설계 가이드
+- [DeepLearning.AI - ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - Andrew Ng의 프롬프트 엔지니어링 무료 강좌
+- [Stanford CS324 - Large Language Models](https://stanford-cs324.github.io/winter2022/) - LLM에 대한 체계적인 학술 강의
+- [Hugging Face NLP Course](https://huggingface.co/course) - Transformer 및 NLP 실습 과정
 
 #### 실무 사례 참고
 
-- **OpenAI Blog**
-  https://openai.com/blog
-  GPT, DALL-E 등 모델 발표 및 활용 사례
-
-- **Anthropic Research**
-  https://www.anthropic.com/research
-  Claude 모델 및 AI 안전성 연구
-
-- **Google AI Blog**
-  https://ai.googleblog.com/
-  Gemini, PaLM 등 구글 AI 연구
-
-- **Stability AI Blog**
-  https://stability.ai/blog
-  Stable Diffusion 업데이트 및 활용 사례
-
-- **Hugging Face Blog**
-  https://huggingface.co/blog
-  오픈소스 AI 모델 및 활용 사례
-
-- **LangChain Blog**
-  https://blog.langchain.dev/
-  RAG 및 LLM 애플리케이션 구축 사례
+- [OpenAI Blog](https://openai.com/blog) - GPT, DALL-E 등 모델 발표 및 활용 사례
+- [Anthropic Research](https://www.anthropic.com/research) - Claude 모델 및 AI 안전성 연구
+- [Google AI Blog](https://ai.googleblog.com/) - Gemini, PaLM 등 구글 AI 연구
+- [Stability AI Blog](https://stability.ai/blog) - Stable Diffusion 업데이트 및 활용 사례
+- [Hugging Face Blog](https://huggingface.co/blog) - 오픈소스 AI 모델 및 활용 사례
+- [LangChain Blog](https://blog.langchain.dev/) - RAG 및 LLM 애플리케이션 구축 사례
 
 #### YouTube
 
-- **Andrej Karpathy**
-  https://www.youtube.com/@AndrejKarpathy
-  GPT, Transformer 등 딥러닝 개념 설명 (전 OpenAI/Tesla)
-
-- **3Blue1Brown**
-  https://www.youtube.com/@3blue1brown
-  신경망, Attention 메커니즘 시각화 설명
-
-- **Yannic Kilcher**
-  https://www.youtube.com/@YannicKilcher
-  AI 논문 리뷰 및 해설
-
-- **Two Minute Papers**
-  https://www.youtube.com/@TwoMinutePapers
-  최신 AI 연구 요약
-
-- **AI Explained**
-  https://www.youtube.com/@aiaborr
-  LLM 및 생성형 AI 최신 동향 분석
-
-- **Matt Wolfe**
-  https://www.youtube.com/@maborr
-  AI 도구 리뷰 및 활용법
+- [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) - GPT, Transformer 등 딥러닝 개념 설명 (전 OpenAI/Tesla)
+- [3Blue1Brown](https://www.youtube.com/@3blue1brown) - 신경망, Attention 메커니즘 시각화 설명
+- [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) - AI 논문 리뷰 및 해설
+- [Two Minute Papers](https://www.youtube.com/@TwoMinutePapers) - 최신 AI 연구 요약
+- [AI Explained](https://www.youtube.com/@aiexplained-official) - LLM 및 생성형 AI 최신 동향 분석
+- [Matt Wolfe](https://www.youtube.com/@maborr) - AI 도구 리뷰 및 활용법
 
 #### 커뮤니티
 
-- **r/MachineLearning (Reddit)**
-  https://www.reddit.com/r/MachineLearning/
-  ML/AI 연구 및 논의
-
-- **r/LocalLLaMA (Reddit)**
-  https://www.reddit.com/r/LocalLLaMA/
-  오픈소스 LLM 커뮤니티
-
-- **Hugging Face Discord**
-  https://huggingface.co/join/discord
-  오픈소스 AI 모델 커뮤니티
-
-- **LangChain Discord**
-  https://discord.gg/langchain
-  LLM 애플리케이션 개발 커뮤니티
-
-- **Midjourney Discord**
-  https://discord.gg/midjourney
-  이미지 생성 AI 커뮤니티
-
-- **Stable Diffusion Discord**
-  https://discord.gg/stablediffusion
-  오픈소스 이미지 생성 커뮤니티
+- [r/MachineLearning (Reddit)](https://www.reddit.com/r/MachineLearning/) - ML/AI 연구 및 논의
+- [r/LocalLLaMA (Reddit)](https://www.reddit.com/r/LocalLLaMA/) - 오픈소스 LLM 커뮤니티
+- [Hugging Face Discord](https://huggingface.co/join/discord) - 오픈소스 AI 모델 커뮤니티
+- [LangChain Discord](https://discord.gg/langchain) - LangChain 개발자 커뮤니티
+- [Midjourney Discord](https://discord.gg/midjourney) - 이미지 생성 AI 커뮤니티
+- [Stable Diffusion Discord](https://discord.gg/stablediffusion) - 오픈소스 이미지 생성 커뮤니티
 
 #### 도구 및 프로토타이핑
 
-- **ChatGPT / Claude / Gemini**
-  https://chat.openai.com / https://claude.ai / https://gemini.google.com
-  텍스트 생성 AI 대표 서비스
-
-- **DALL-E / Midjourney / Stable Diffusion**
-  https://openai.com/dall-e / https://midjourney.com / https://stability.ai
-  이미지 생성 AI 대표 서비스
-
-- **Hugging Face**
-  https://huggingface.co/
-  오픈소스 AI 모델 허브 및 실행 환경
-
-- **LangChain**
-  https://langchain.com/
-  LLM 애플리케이션 개발 프레임워크
-
-- **Pinecone / Chroma / Weaviate**
-  https://pinecone.io / https://trychroma.com / https://weaviate.io
-  RAG를 위한 벡터 데이터베이스
-
-- **OpenAI Playground**
-  https://platform.openai.com/playground
-  GPT 모델 프롬프트 테스트 환경
-
-- **Anthropic Claude API Console**
-  https://console.anthropic.com/
-  Claude 모델 프롬프트 테스트 환경
-
-- **Prompt Engineering Guide (DAIR.AI)**
-  https://www.promptingguide.ai/
-  프롬프트 엔지니어링 종합 가이드
-
-- **Perplexity AI**
-  https://perplexity.ai/
-  RAG 기반 검색 엔진 (출처 명시)
-
-- **Replicate**
-  https://replicate.com/
-  오픈소스 AI 모델 API 서비스
+- [ChatGPT](https://chat.openai.com) - OpenAI 텍스트 생성 AI
+- [Claude](https://claude.ai) - Anthropic 텍스트 생성 AI
+- [Gemini](https://gemini.google.com) - Google 텍스트 생성 AI
+- [DALL-E](https://openai.com/dall-e) - OpenAI 이미지 생성 AI
+- [Midjourney](https://midjourney.com) - 이미지 생성 AI 서비스
+- [Stable Diffusion](https://stability.ai) - 오픈소스 이미지 생성 AI
+- [Hugging Face](https://huggingface.co/) - 오픈소스 AI 모델 허브 및 실행 환경
+- [LangChain](https://langchain.com/) - LLM 애플리케이션 개발 프레임워크
+- [Pinecone](https://pinecone.io) - RAG를 위한 벡터 데이터베이스
+- [Chroma](https://trychroma.com) - 오픈소스 벡터 데이터베이스
+- [Weaviate](https://weaviate.io) - 벡터 검색 엔진
+- [OpenAI Playground](https://platform.openai.com/playground) - GPT 모델 프롬프트 테스트 환경
+- [Anthropic Claude Console](https://console.anthropic.com/) - Claude 모델 프롬프트 테스트 환경
+- [Prompt Engineering Guide (DAIR.AI)](https://www.promptingguide.ai/) - 프롬프트 엔지니어링 종합 가이드
+- [Perplexity AI](https://perplexity.ai/) - RAG 기반 검색 엔진 (출처 명시)
+- [Replicate](https://replicate.com/) - 오픈소스 AI 모델 API 서비스
