@@ -35,8 +35,8 @@ Goorm Deep Dive를 알게 되었습니다.
 
 
 ## 다른 과정의 학생들과 커뮤니케이션이 가능하다.
-![Goorm Deep Dive](/assets/images/goorm/goorm1.png)
-![Goorm Deep Dive](/assets/images/goorm/goorm2.png)
+![Goorm Deep Dive](../../../../assets/images/goorm/goorm1.png)
+![Goorm Deep Dive](../../../../assets/images/goorm/goorm2.png)
 
 ```
 디자이너, 백앤드, 프론트, 정보보안 등 각기 다른 파트의 사람들과 협업해보는 기회는 실무를 제외하고
@@ -66,7 +66,7 @@ Goorm Deep Dive를 알게 되었습니다.
 
 
 # Goorm Deep Dive PM 8회차
-![Goorm Deep Dive](/assets/images/goorm/goorm3.png)
+![Goorm Deep Dive](../../../../assets/images/goorm/goorm3.png)
 ```
 결국 이것저것 확인하다가 지원하게 되었고 PM과정 8회차에 합격해서 진행하게 되었습니다.
 ```
@@ -77,8 +77,8 @@ Goorm Deep Dive를 알게 되었습니다.
 알고 있어야하는 기본지식을 공부 할 수 있게 가이드 라인을 주어서 편했음.
 
 ## LMS, EXP 등 생각보다 편하다!
-![Goorm Deep Dive](/assets/images/goorm/goorm4.png)
-![Goorm Deep Dive](/assets/images/goorm/goorm5.png)
+![Goorm Deep Dive](../../../../assets/images/goorm/goorm4.png)
+![Goorm Deep Dive](../../../../assets/images/goorm/goorm5.png)
 ```
 LMS는 학습전체에 대한 내 강의를 볼 수 있고 이런 저런 정보를 볼 수 있는 페이지인것 같고
 EXP는 내가 실질적으로 학습을 해 나가는 활동(?)등을 직접 볼 수 있고 그 안에 미션 퀘스트 등
