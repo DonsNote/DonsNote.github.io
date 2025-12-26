@@ -35,6 +35,7 @@ Goorm Deep Dive를 알게 되었습니다.
 
 
 ## 다른 과정의 학생들과 커뮤니케이션이 가능하다.
+![](../../assets/images/Goorm/goorm1.png)
 ![Goorm Deep Dive](../../../../assets/images/goorm/goorm1.png)
 ![Goorm Deep Dive](../../../../assets/images/goorm/goorm2.png)
 
