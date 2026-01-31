@@ -18,7 +18,7 @@ has_children: false
 드디어 과정의 첫걸음을 시작했습니다. 두구두구두구!!
 이제까지의 거의 모든 학습은 오프라인으로 해왔던 지라 온라인 실시간 강의는 처음이라서 기대와 걱정(?)이
 ```
-![Goorm Deep Dive](aeests/images/Goorm/assets/images/Goorm/zoom.png)
+![Goorm Deep Dive](../../../../assets/images/Goorm/zoom.png)
 ```
 우선 온라인 실시간은 Zoom을 활용한 강의임.
 Zoom을 많이 안써봤는데 생각보다 화질 / 음성 모두 퀄리티가 좋음.
